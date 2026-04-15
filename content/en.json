@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "title": "ARU STAY — A calm base in Seoul",
+    "description": "A warm, thoughtful stay near Wangsimni. Long stays welcome."
+  },
+  "nav": {
+    "about": "About",
+    "rooms": "Rooms",
+    "longStay": "Long Stay",
+    "facilities": "Facilities",
+    "location": "Location",
+    "guestNotes": "Guest Notes",
+    "book": "Book"
+  },
+  "hero": {
+    "eyebrow": "ARU STAY · SEOUL",
+    "title": "A quiet base for your days in Seoul.",
+    "subtitle": "Soft, warm, and thoughtfully cared for. Stay a night, or stay a while.",
+    "cta": "Request a Long Stay"
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "A calm place to return to, every evening.",
+    "body": "ARU STAY is a small, internationally friendly stay in the heart of Seoul. We keep things simple and kind — clean rooms, quiet mornings, and an easy, self-guided rhythm.",
+    "points": [
+      { "title": "International guests welcome", "body": "English, Japanese, Chinese and Korean support." },
+      { "title": "Self check-in after 9 PM", "body": "Late arrivals are no problem at all." },
+      { "title": "Long stays encouraged", "body": "Better rates for 10+ night direct inquiries." }
+    ]
+  },
+  "rooms": {
+    "eyebrow": "Rooms",
+    "title": "Comfortable rooms, honestly made.",
+    "viewDetails": "View details",
+    "close": "Close",
+    "size": "Size",
+    "capacityLabel": "Capacity",
+    "amenitiesLabel": "Amenities",
+    "items": [
+      {
+        "name": "Single Room",
+        "capacity": "1 guest",
+        "size": "14 m²",
+        "desc": "A compact, quiet room with everything you need for a simple stay.",
+        "amenities": ["Single bed", "Private bathroom", "Desk", "Wi-Fi", "Air conditioning"]
+      },
+      {
+        "name": "Double Room",
+        "capacity": "2 guests",
+        "size": "18 m²",
+        "desc": "A soft double bed, warm lighting, and a calm atmosphere.",
+        "amenities": ["Double bed", "Private bathroom", "Desk", "Wi-Fi", "Blackout curtains"]
+      },
+      {
+        "name": "Twin Room",
+        "capacity": "2 guests",
+        "size": "20 m²",
+        "desc": "Two single beds for friends or family traveling together.",
+        "amenities": ["Two single beds", "Private bathroom", "Wi-Fi", "Closet", "Warm lighting"]
+      },
+      {
+        "name": "Family Room",
+        "capacity": "3–4 guests",
+        "size": "28 m²",
+        "desc": "Roomier layout for small groups who want to stay together.",
+        "amenities": ["Double + single beds", "Private bathroom", "Extra seating", "Wi-Fi", "Luggage space"]
+      }
+    ]
+  },
+  "longStay": {
+    "eyebrow": "Long Stay",
+    "title": "Planning to stay 10 nights or more?",
+    "body": "Reach out to us directly and we'll do our best to prepare better rates and a longer, smoother stay. After you send your inquiry, we'll check availability and reply with a personal payment link.",
+    "bullets": [
+      "Better direct rates for 10+ night stays",
+      "Quiet neighborhood, great for remote work",
+      "Close to major Seoul districts",
+      "Personal, human communication"
+    ],
+    "cta": "Request a Long Stay",
+    "note": "You'll be taken to a short Google Form (opens in a new tab)."
+  },
+  "facilities": {
+    "eyebrow": "Facilities",
+    "title": "The essentials, done well.",
+    "items": [
+      { "name": "Lounge", "desc": "A shared space to relax or work." },
+      { "name": "Washing Machine", "desc": "Free to use during your stay." },
+      { "name": "Water Purifier", "desc": "Cold and hot water, anytime." },
+      { "name": "Microwave", "desc": "For quick meals and late snacks." },
+      { "name": "Luggage Storage", "desc": "Before check-in or after check-out." },
+      { "name": "Self Check-in after 9 PM", "desc": "Arrive late without any stress." }
+    ]
+  },
+  "location": {
+    "eyebrow": "Location",
+    "title": "Near Wangsimni — a quiet hub, close to everywhere.",
+    "body": "ARU STAY sits a short walk from Wangsimni Station, a major transit point connecting you across Seoul in minutes.",
+    "access": [
+      { "place": "Seongsu", "time": "5 min" },
+      { "place": "Dongdaemun", "time": "10 min" },
+      { "place": "Jongno / Gwanghwamun", "time": "15 min" },
+      { "place": "Myeongdong", "time": "15 min" },
+      { "place": "Hongdae", "time": "25 min" }
+    ],
+    "nearby": "Around the stay you'll find convenience stores, Olive Young, Daiso, and local supermarkets — everything for daily life."
+  },
+  "guestNotes": {
+    "eyebrow": "Guest Notes",
+    "title": "A few words from past guests.",
+    "items": [
+      { "quote": "Quiet, clean, and so easy to check in late. Felt like a calm home in Seoul.", "author": "Guest from Japan" },
+      { "quote": "Great location for exploring the city. The host was thoughtful and kind.", "author": "Guest from Taiwan" },
+      { "quote": "We stayed for three weeks and never wanted to leave. Highly recommend.", "author": "Guest from France" }
+    ]
+  },
+  "booking": {
+    "eyebrow": "Book",
+    "title": "Ready when you are.",
+    "body": "For long stays (10+ nights), please inquire directly — we'll reply with availability and a personal payment link. For shorter stays, booking through our OTA partners is easiest.",
+    "longStayCta": "Long Stay Inquiry",
+    "shortStay": "Short stay — book via",
+    "contact": "Contact",
+    "email": "hello@arustay.example",
+    "instagram": "Instagram",
+    "booking": "Booking.com",
+    "agoda": "Agoda"
+  },
+  "floating": {
+    "cta": "Long Stay Inquiry"
+  },
+  "footer": {
+    "tagline": "ARU STAY · Seoul",
+    "rights": "All rights reserved."
+  }
+}

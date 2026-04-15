@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "title": "ARU STAY — ソウルの落ち着いた拠点",
+    "description": "王十里近く、温かく丁寧に整えられた宿。長期滞在歓迎。"
+  },
+  "nav": {
+    "about": "About",
+    "rooms": "Rooms",
+    "longStay": "Long Stay",
+    "facilities": "Facilities",
+    "location": "Location",
+    "guestNotes": "Guest Notes",
+    "book": "Book"
+  },
+  "hero": {
+    "eyebrow": "ARU STAY · SEOUL",
+    "title": "ソウルでの日々に、静かな拠点を。",
+    "subtitle": "柔らかく、温かく、丁寧に。一泊でも、長期でも。",
+    "cta": "長期滞在を問い合わせる"
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "毎晩、静かに帰ってこられる場所。",
+    "body": "ARU STAY はソウル中心部にある小さな、海外ゲストにやさしい宿です。清潔な部屋、静かな朝、自分のリズムで過ごせる心地よさを大切にしています。",
+    "points": [
+      { "title": "多言語対応", "body": "英語・日本語・中国語・韓国語でサポート。" },
+      { "title": "21時以降セルフチェックイン", "body": "遅い到着でも安心です。" },
+      { "title": "長期滞在を歓迎", "body": "10泊以上の直接予約にお得な条件。" }
+    ]
+  },
+  "rooms": {
+    "eyebrow": "Rooms",
+    "title": "誠実につくられた、心地よい部屋。",
+    "viewDetails": "詳細を見る",
+    "close": "閉じる",
+    "size": "広さ",
+    "capacityLabel": "定員",
+    "amenitiesLabel": "設備",
+    "items": [
+      {
+        "name": "シングルルーム",
+        "capacity": "1名",
+        "size": "14 m²",
+        "desc": "コンパクトで静か、必要なものがそろった部屋。",
+        "amenities": ["シングルベッド", "専用バスルーム", "デスク", "Wi-Fi", "エアコン"]
+      },
+      {
+        "name": "ダブルルーム",
+        "capacity": "2名",
+        "size": "18 m²",
+        "desc": "柔らかなダブルベッドと温かな照明。",
+        "amenities": ["ダブルベッド", "専用バスルーム", "デスク", "Wi-Fi", "遮光カーテン"]
+      },
+      {
+        "name": "ツインルーム",
+        "capacity": "2名",
+        "size": "20 m²",
+        "desc": "友人や家族に最適なシングルベッド2台。",
+        "amenities": ["シングルベッド2台", "専用バスルーム", "Wi-Fi", "クローゼット", "温かい照明"]
+      },
+      {
+        "name": "ファミリールーム",
+        "capacity": "3〜4名",
+        "size": "28 m²",
+        "desc": "少人数グループ向けの広めの間取り。",
+        "amenities": ["ダブル+シングルベッド", "専用バスルーム", "座席", "Wi-Fi", "荷物スペース"]
+      }
+    ]
+  },
+  "longStay": {
+    "eyebrow": "Long Stay",
+    "title": "10泊以上のご滞在をお考えですか?",
+    "body": "ぜひ直接ご連絡ください。空室確認のうえ、より良い条件と個別の決済リンクをご案内します。",
+    "bullets": [
+      "10泊以上の直接予約は優遇レート",
+      "静かな住環境、リモートワークにも最適",
+      "ソウル主要エリアへのアクセス良好",
+      "人と人との、丁寧なやり取り"
+    ],
+    "cta": "長期滞在を問い合わせる",
+    "note": "Google フォームが別タブで開きます。"
+  },
+  "facilities": {
+    "eyebrow": "Facilities",
+    "title": "必要なものを、きちんと。",
+    "items": [
+      { "name": "ラウンジ", "desc": "くつろぎや作業に使える共用スペース。" },
+      { "name": "洗濯機", "desc": "滞在中は自由にご利用いただけます。" },
+      { "name": "浄水器", "desc": "いつでも冷水・温水を。" },
+      { "name": "電子レンジ", "desc": "軽食や夜食の温めに。" },
+      { "name": "荷物預かり", "desc": "チェックイン前・後も安心。" },
+      { "name": "21時以降セルフチェックイン", "desc": "遅い到着も気軽に。" }
+    ]
+  },
+  "location": {
+    "eyebrow": "Location",
+    "title": "王十里エリア — 静かで、どこへでも近い。",
+    "body": "ARU STAY は王十里駅から徒歩圏内。ソウル各地へ数分でアクセスできる主要交通拠点です。",
+    "access": [
+      { "place": "聖水", "time": "5分" },
+      { "place": "東大門", "time": "10分" },
+      { "place": "鍾路 / 光化門", "time": "15分" },
+      { "place": "明洞", "time": "15分" },
+      { "place": "弘大", "time": "25分" }
+    ],
+    "nearby": "周辺にはコンビニ、オリーブヤング、ダイソー、スーパーなど、暮らしに必要なものがそろっています。"
+  },
+  "guestNotes": {
+    "eyebrow": "Guest Notes",
+    "title": "これまでのゲストからの声。",
+    "items": [
+      { "quote": "静かで清潔、遅いチェックインもスムーズ。ソウルの落ち着いた家のようでした。", "author": "日本からのゲスト" },
+      { "quote": "街を巡るのに最適なロケーション。ホストもとても親切でした。", "author": "台湾からのゲスト" },
+      { "quote": "3週間滞在しましたが、離れがたかったです。おすすめです。", "author": "フランスからのゲスト" }
+    ]
+  },
+  "booking": {
+    "eyebrow": "Book",
+    "title": "いつでもお気軽に。",
+    "body": "10泊以上の長期滞在は直接お問い合わせください。空室確認後、個別の決済リンクをお送りします。短期滞在は各OTAからのご予約が便利です。",
+    "longStayCta": "長期滞在の問い合わせ",
+    "shortStay": "短期滞在はこちら",
+    "contact": "お問い合わせ",
+    "email": "hello@arustay.example",
+    "instagram": "Instagram",
+    "booking": "Booking.com",
+    "agoda": "Agoda"
+  },
+  "floating": {
+    "cta": "長期滞在の問い合わせ"
+  },
+  "footer": {
+    "tagline": "ARU STAY · Seoul",
+    "rights": "All rights reserved."
+  }
+}

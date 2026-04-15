@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "title": "ARU STAY — 서울의 조용한 거점",
+    "description": "왕십리 근처, 따뜻하고 정돈된 숙소. 장기 숙박 환영."
+  },
+  "nav": {
+    "about": "About",
+    "rooms": "Rooms",
+    "longStay": "Long Stay",
+    "facilities": "Facilities",
+    "location": "Location",
+    "guestNotes": "Guest Notes",
+    "book": "Book"
+  },
+  "hero": {
+    "eyebrow": "ARU STAY · SEOUL",
+    "title": "서울에서의 하루에, 조용한 거점.",
+    "subtitle": "부드럽고 따뜻하며, 정성껏 정돈된 공간. 하룻밤이든, 한 달이든.",
+    "cta": "장기 숙박 문의하기"
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "매일 저녁, 조용히 돌아올 수 있는 곳.",
+    "body": "ARU STAY는 서울 한복판의 작고 국제적인 숙소입니다. 깨끗한 객실, 조용한 아침, 편안한 자율 체크인 — 단순하고 따뜻하게 운영합니다.",
+    "points": [
+      { "title": "다국어 응대", "body": "영어, 일본어, 중국어, 한국어 지원." },
+      { "title": "밤 9시 이후 셀프 체크인", "body": "늦은 도착도 부담 없이." },
+      { "title": "장기 숙박 환영", "body": "10박 이상 직접 문의 시 더 좋은 조건." }
+    ]
+  },
+  "rooms": {
+    "eyebrow": "Rooms",
+    "title": "정성스럽게 만든 편안한 객실.",
+    "viewDetails": "자세히 보기",
+    "close": "닫기",
+    "size": "크기",
+    "capacityLabel": "인원",
+    "amenitiesLabel": "편의사항",
+    "items": [
+      {
+        "name": "싱글룸",
+        "capacity": "1인",
+        "size": "14 m²",
+        "desc": "조용하고 아담하며, 필요한 것이 갖춰진 방.",
+        "amenities": ["싱글 침대", "개별 욕실", "책상", "Wi-Fi", "에어컨"]
+      },
+      {
+        "name": "더블룸",
+        "capacity": "2인",
+        "size": "18 m²",
+        "desc": "부드러운 더블 침대와 따뜻한 조명.",
+        "amenities": ["더블 침대", "개별 욕실", "책상", "Wi-Fi", "암막 커튼"]
+      },
+      {
+        "name": "트윈룸",
+        "capacity": "2인",
+        "size": "20 m²",
+        "desc": "친구·가족과 함께하기 좋은 싱글 침대 두 개.",
+        "amenities": ["싱글 침대 2개", "개별 욕실", "Wi-Fi", "옷장", "따뜻한 조명"]
+      },
+      {
+        "name": "패밀리룸",
+        "capacity": "3–4인",
+        "size": "28 m²",
+        "desc": "소규모 일행에게 넉넉한 공간.",
+        "amenities": ["더블+싱글 침대", "개별 욕실", "여유로운 좌석", "Wi-Fi", "짐 보관 공간"]
+      }
+    ]
+  },
+  "longStay": {
+    "eyebrow": "Long Stay",
+    "title": "10박 이상 머무르실 예정인가요?",
+    "body": "저희에게 직접 문의해 주세요. 가능한 한 더 좋은 조건과 편안한 장기 숙박을 준비해 드립니다. 문의를 남겨주시면 가용 여부를 확인하고 개별 결제 링크로 회신드립니다.",
+    "bullets": [
+      "10박 이상 직접 문의 시 더 나은 요금",
+      "조용한 동네, 원격 근무에도 좋음",
+      "서울 주요 지역 접근성 우수",
+      "사람과 사람 사이의 정중한 소통"
+    ],
+    "cta": "장기 숙박 문의하기",
+    "note": "새 탭에서 Google 폼이 열립니다."
+  },
+  "facilities": {
+    "eyebrow": "Facilities",
+    "title": "기본을 제대로.",
+    "items": [
+      { "name": "라운지", "desc": "쉬거나 일하기 좋은 공용 공간." },
+      { "name": "세탁기", "desc": "투숙 기간 동안 자유롭게 사용." },
+      { "name": "정수기", "desc": "냉·온수 언제든지." },
+      { "name": "전자레인지", "desc": "간단한 식사나 야식 데우기." },
+      { "name": "짐 보관", "desc": "체크인 전·체크아웃 후 모두 가능." },
+      { "name": "9시 이후 셀프 체크인", "desc": "늦은 도착도 편하게." }
+    ]
+  },
+  "location": {
+    "eyebrow": "Location",
+    "title": "왕십리 — 조용하지만, 어디든 가깝게.",
+    "body": "ARU STAY는 왕십리역에서 도보 몇 분 거리에 있습니다. 서울 전역으로 몇 분이면 이동할 수 있는 주요 교통 허브입니다.",
+    "access": [
+      { "place": "성수", "time": "5분" },
+      { "place": "동대문", "time": "10분" },
+      { "place": "종로 / 광화문", "time": "15분" },
+      { "place": "명동", "time": "15분" },
+      { "place": "홍대", "time": "25분" }
+    ],
+    "nearby": "숙소 주변에는 편의점, 올리브영, 다이소, 마트 등 생활에 필요한 것들이 모두 있습니다."
+  },
+  "guestNotes": {
+    "eyebrow": "Guest Notes",
+    "title": "지나간 투숙객들의 한 마디.",
+    "items": [
+      { "quote": "조용하고 깨끗하며 늦은 체크인도 간편했어요. 서울에서의 조용한 집 같았습니다.", "author": "일본 투숙객" },
+      { "quote": "도시를 돌아보기에 최고의 위치. 호스트도 친절했어요.", "author": "대만 투숙객" },
+      { "quote": "3주 머물렀는데 떠나기 아쉬웠어요. 강력 추천합니다.", "author": "프랑스 투숙객" }
+    ]
+  },
+  "booking": {
+    "eyebrow": "Book",
+    "title": "언제든 편하게.",
+    "body": "10박 이상 장기 숙박은 직접 문의 부탁드립니다. 가용 여부 확인 후 개별 결제 링크로 회신드려요. 단기 숙박은 OTA 파트너를 통한 예약이 편리합니다.",
+    "longStayCta": "장기 숙박 문의",
+    "shortStay": "단기 숙박 예약",
+    "contact": "연락처",
+    "email": "hello@arustay.example",
+    "instagram": "Instagram",
+    "booking": "Booking.com",
+    "agoda": "Agoda"
+  },
+  "floating": {
+    "cta": "장기 숙박 문의"
+  },
+  "footer": {
+    "tagline": "ARU STAY · Seoul",
+    "rights": "All rights reserved."
+  }
+}

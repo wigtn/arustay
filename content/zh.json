@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "title": "ARU STAY — 首尔的安静据点",
+    "description": "位于往十里附近,温暖而用心的小型住宿。欢迎长期入住。"
+  },
+  "nav": {
+    "about": "About",
+    "rooms": "Rooms",
+    "longStay": "Long Stay",
+    "facilities": "Facilities",
+    "location": "Location",
+    "guestNotes": "Guest Notes",
+    "book": "Book"
+  },
+  "hero": {
+    "eyebrow": "ARU STAY · SEOUL",
+    "title": "首尔日常里,一处安静的据点。",
+    "subtitle": "柔和、温暖、用心照料。住一晚,或住一段时间。",
+    "cta": "咨询长期入住"
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "每晚都可以安心回来的地方。",
+    "body": "ARU STAY 是位于首尔中心、对国际旅客友好的小型住宿。我们把事情做得简单而用心 — 干净的房间、安静的清晨、自在的节奏。",
+    "points": [
+      { "title": "多语种支持", "body": "英语、日语、中文、韩语均可。" },
+      { "title": "晚上9点后自助登记", "body": "晚到也完全没问题。" },
+      { "title": "欢迎长期入住", "body": "10晚以上直接咨询享更优价格。" }
+    ]
+  },
+  "rooms": {
+    "eyebrow": "Rooms",
+    "title": "踏实用心的舒适房间。",
+    "viewDetails": "查看详情",
+    "close": "关闭",
+    "size": "面积",
+    "capacityLabel": "入住人数",
+    "amenitiesLabel": "设施",
+    "items": [
+      {
+        "name": "单人房",
+        "capacity": "1人",
+        "size": "14 m²",
+        "desc": "紧凑安静,满足基本所需。",
+        "amenities": ["单人床", "独立浴室", "书桌", "Wi-Fi", "空调"]
+      },
+      {
+        "name": "双人房",
+        "capacity": "2人",
+        "size": "18 m²",
+        "desc": "柔软大床,温暖灯光。",
+        "amenities": ["双人床", "独立浴室", "书桌", "Wi-Fi", "遮光窗帘"]
+      },
+      {
+        "name": "双床房",
+        "capacity": "2人",
+        "size": "20 m²",
+        "desc": "适合朋友或家人同住。",
+        "amenities": ["两张单人床", "独立浴室", "Wi-Fi", "衣柜", "温馨灯光"]
+      },
+      {
+        "name": "家庭房",
+        "capacity": "3–4人",
+        "size": "28 m²",
+        "desc": "空间更宽敞,适合小团体。",
+        "amenities": ["双人+单人床", "独立浴室", "休憩座椅", "Wi-Fi", "行李空间"]
+      }
+    ]
+  },
+  "longStay": {
+    "eyebrow": "Long Stay",
+    "title": "计划入住10晚以上?",
+    "body": "请直接联系我们,我们会尽力为您准备更优的价格与更顺畅的长期入住体验。提交咨询后,我们会确认空房并发送专属付款链接。",
+    "bullets": [
+      "10晚以上直接咨询享优惠",
+      "安静街区,非常适合远程办公",
+      "邻近首尔主要地区",
+      "人与人之间的真诚沟通"
+    ],
+    "cta": "咨询长期入住",
+    "note": "将会在新窗口打开 Google 表单。"
+  },
+  "facilities": {
+    "eyebrow": "Facilities",
+    "title": "把基本的做好。",
+    "items": [
+      { "name": "休息室", "desc": "可放松或办公的共享空间。" },
+      { "name": "洗衣机", "desc": "住宿期间免费使用。" },
+      { "name": "饮水机", "desc": "随时提供冷热水。" },
+      { "name": "微波炉", "desc": "加热简餐与夜宵。" },
+      { "name": "行李寄存", "desc": "入住前或退房后均可。" },
+      { "name": "晚上9点后自助登记", "desc": "晚到也轻松入住。" }
+    ]
+  },
+  "location": {
+    "eyebrow": "Location",
+    "title": "邻近往十里 — 安静,却通达各处。",
+    "body": "ARU STAY 距往十里站步行几分钟,这里是首尔重要的换乘枢纽,可快速抵达各地。",
+    "access": [
+      { "place": "圣水", "time": "5分钟" },
+      { "place": "东大门", "time": "10分钟" },
+      { "place": "钟路 / 光化门", "time": "15分钟" },
+      { "place": "明洞", "time": "15分钟" },
+      { "place": "弘大", "time": "25分钟" }
+    ],
+    "nearby": "周边有便利店、Olive Young、Daiso 与超市,日常所需一应俱全。"
+  },
+  "guestNotes": {
+    "eyebrow": "Guest Notes",
+    "title": "来自住客的一些话。",
+    "items": [
+      { "quote": "安静、干净,晚到自助登记非常顺畅。像首尔的一处安静小家。", "author": "日本住客" },
+      { "quote": "探索城市的绝佳位置,主人也非常贴心。", "author": "台湾住客" },
+      { "quote": "我们住了三周,舍不得离开。强烈推荐。", "author": "法国住客" }
+    ]
+  },
+  "booking": {
+    "eyebrow": "Book",
+    "title": "随时欢迎预订。",
+    "body": "10晚以上的长期入住,请直接咨询,我们会回复空房情况与专属付款链接。短期入住建议通过各 OTA 合作方预订。",
+    "longStayCta": "长期入住咨询",
+    "shortStay": "短期入住预订渠道",
+    "contact": "联系方式",
+    "email": "hello@arustay.example",
+    "instagram": "Instagram",
+    "booking": "Booking.com",
+    "agoda": "Agoda"
+  },
+  "floating": {
+    "cta": "长期入住咨询"
+  },
+  "footer": {
+    "tagline": "ARU STAY · Seoul",
+    "rights": "All rights reserved."
+  }
+}
