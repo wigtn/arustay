@@ -105,6 +105,36 @@
     ],
     "nearby": "Around the stay you'll find convenience stores, Olive Young, Daiso, and local supermarkets — everything for daily life."
   },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions guests often ask.",
+    "items": [
+      {
+        "q": "Can I check in late at night?",
+        "a": "Yes. Self check-in is available after 9 PM. We send the door code in advance, so late arrivals are no problem."
+      },
+      {
+        "q": "Do you offer discounts for long stays?",
+        "a": "We welcome stays of 10 nights or more. Please send a direct inquiry through our Long Stay form and we'll reply with a personalized rate."
+      },
+      {
+        "q": "Where exactly is ARU STAY located?",
+        "a": "We're a few minutes on foot from Wangsimni Station in Seongdong-gu, Seoul — a major transit hub connecting most of the city in 15 minutes."
+      },
+      {
+        "q": "How does payment work for direct inquiries?",
+        "a": "After we confirm availability, we send a personal payment link by email. You only pay once we've confirmed your dates."
+      },
+      {
+        "q": "What languages do you support?",
+        "a": "English, Japanese, Chinese and Korean. Please feel free to message us in any of these languages."
+      },
+      {
+        "q": "Is there laundry and luggage storage on site?",
+        "a": "Yes. A washing machine, water purifier, microwave and luggage storage are available to all guests."
+      }
+    ]
+  },
   "guestNotes": {
     "eyebrow": "Guest Notes",
     "title": "A few words from past guests.",

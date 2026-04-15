@@ -7,6 +7,7 @@ import LongStay from './sections/LongStay';
 import Facilities from './sections/Facilities';
 import Location from './sections/Location';
 import GuestNotes from './sections/GuestNotes';
+import Faq from './sections/Faq';
 import Booking from './sections/Booking';
 
 export default async function HomePage({
@@ -26,6 +27,7 @@ export default async function HomePage({
       <Facilities />
       <Location />
       <GuestNotes />
+      <Faq />
       <Booking />
       <FloatingCTA />
     </main>
