@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import FadeIn from '@/components/FadeIn';
 
@@ -6,14 +7,17 @@ export default function About() {
 
   return (
     <section id="about" className="relative">
-      <div className="relative min-h-[92vh] flex items-center overflow-hidden">
+      <div className="relative min-h-[92vh] flex items-center overflow-hidden bg-sand-300">
+        <Image
+          src="/images/optimized/about.avif"
+          alt=""
+          fill
+          sizes="100vw"
+          className="object-cover"
+          aria-hidden
+        />
         <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{
-            backgroundImage:
-              'linear-gradient(90deg, rgba(24,20,18,0.75) 0%, rgba(24,20,18,0.55) 45%, rgba(24,20,18,0.25) 100%), url(/images/optimized/about.avif)',
-            backgroundColor: '#b8a58a',
-          }}
+          className="absolute inset-0 bg-gradient-to-r from-ink/75 via-ink/55 to-ink/25"
           aria-hidden
         />
         <div className="relative mx-auto max-w-6xl w-full px-5 sm:px-8 py-24 sm:py-32">

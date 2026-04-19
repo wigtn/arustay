@@ -1,7 +1,7 @@
 'use client';
 
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { motion, useReducedMotion } from 'framer-motion';
+import { animate, motion, useMotionValue, useReducedMotion } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 type Props = {
@@ -22,7 +22,39 @@ export default function RoomCarousel({ images, alt, labels, className = '' }: Pr
   const [index, setIndex] = useState(0);
   const reduce = useReducedMotion();
   const containerRef = useRef<HTMLDivElement | null>(null);
+  const widthRef = useRef(0);
+  const x = useMotionValue(0);
   const total = images.length;
+
+  const dragRef = useRef<{
+    active: boolean;
+    startX: number;
+    originX: number;
+    pointerId: number;
+  }>({ active: false, startX: 0, originX: 0, pointerId: -1 });
+
+  const runningAnim = useRef<ReturnType<typeof animate> | null>(null);
+
+  const stopAnim = () => {
+    runningAnim.current?.stop();
+    runningAnim.current = null;
+  };
+
+  const snapTo = useCallback(
+    (i: number, opts?: { immediate?: boolean }) => {
+      stopAnim();
+      const target = -i * widthRef.current;
+      if (opts?.immediate || reduce) {
+        x.set(target);
+        return;
+      }
+      runningAnim.current = animate(x, target, {
+        duration: TRANSITION_MS / 1000,
+        ease: [0.22, 1, 0.36, 1],
+      });
+    },
+    [reduce, x],
+  );
 
   const go = useCallback(
     (delta: number) => {
@@ -37,6 +69,26 @@ export default function RoomCarousel({ images, alt, labels, className = '' }: Pr
     },
     [total],
   );
+
+  const indexRef = useRef(index);
+  indexRef.current = index;
+
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!el) return;
+    const measure = () => {
+      widthRef.current = el.offsetWidth;
+      snapTo(indexRef.current, { immediate: true });
+    };
+    measure();
+    const ro = new ResizeObserver(measure);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [snapTo]);
+
+  useEffect(() => {
+    snapTo(index);
+  }, [index, snapTo]);
 
   useEffect(() => {
     const el = containerRef.current;
@@ -55,6 +107,39 @@ export default function RoomCarousel({ images, alt, labels, className = '' }: Pr
     return () => window.removeEventListener('keydown', onKey);
   }, [go]);
 
+  const onPointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
+    if (e.pointerType === 'mouse' && e.button !== 0) return;
+    stopAnim();
+    dragRef.current = {
+      active: true,
+      startX: e.clientX,
+      originX: x.get(),
+      pointerId: e.pointerId,
+    };
+    (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
+  };
+
+  const onPointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
+    const s = dragRef.current;
+    if (!s.active || s.pointerId !== e.pointerId) return;
+    const delta = e.clientX - s.startX;
+    x.set(s.originX + delta);
+  };
+
+  const endDrag = (e: React.PointerEvent<HTMLDivElement>) => {
+    const s = dragRef.current;
+    if (!s.active || s.pointerId !== e.pointerId) return;
+    const delta = e.clientX - s.startX;
+    s.active = false;
+    if (delta < -SWIPE_THRESHOLD_PX) {
+      go(1);
+    } else if (delta > SWIPE_THRESHOLD_PX) {
+      go(-1);
+    } else {
+      snapTo(indexRef.current);
+    }
+  };
+
   const slideLabel = labels.slide(index + 1, total);
 
   return (
@@ -68,21 +153,12 @@ export default function RoomCarousel({ images, alt, labels, className = '' }: Pr
     >
       <div className="relative h-full w-full">
         <motion.div
-          className="flex h-full w-full"
-          style={{ touchAction: 'pan-y' }}
-          animate={{ x: `-${index * 100}%` }}
-          transition={
-            reduce
-              ? { duration: 0 }
-              : { duration: TRANSITION_MS / 1000, ease: [0.22, 1, 0.36, 1] }
-          }
-          drag="x"
-          dragConstraints={{ left: 0, right: 0 }}
-          dragElastic={0.12}
-          onDragEnd={(_, info) => {
-            if (info.offset.x < -SWIPE_THRESHOLD_PX) go(1);
-            else if (info.offset.x > SWIPE_THRESHOLD_PX) go(-1);
-          }}
+          className="flex h-full w-full cursor-grab active:cursor-grabbing"
+          style={{ x, touchAction: 'pan-y' }}
+          onPointerDown={onPointerDown}
+          onPointerMove={onPointerMove}
+          onPointerUp={endDrag}
+          onPointerCancel={endDrag}
         >
           {images.map((src, i) => (
             <div
@@ -93,6 +169,7 @@ export default function RoomCarousel({ images, alt, labels, className = '' }: Pr
               aria-roledescription="slide"
               aria-label={`${i + 1} / ${total}`}
               aria-hidden={i !== index}
+              draggable={false}
             />
           ))}
         </motion.div>

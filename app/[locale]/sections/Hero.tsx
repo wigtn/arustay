@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import FadeIn from '@/components/FadeIn';
 
@@ -6,14 +7,18 @@ export default function Hero() {
 
   return (
     <section id="hero" className="relative">
-      <div className="relative min-h-[100svh] flex items-end overflow-hidden">
+      <div className="relative min-h-[100svh] flex items-end overflow-hidden bg-sand-300">
+        <Image
+          src="/images/optimized/hero.avif"
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+          aria-hidden
+        />
         <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{
-            backgroundImage:
-              'linear-gradient(180deg, rgba(42,38,35,0.15) 0%, rgba(42,38,35,0.55) 70%, rgba(42,38,35,0.7) 100%), url(/images/optimized/hero.avif)',
-            backgroundColor: '#c9b597',
-          }}
+          className="absolute inset-0 bg-gradient-to-b from-ink/15 via-ink/55 to-ink/70"
           aria-hidden
         />
         <div className="relative mx-auto max-w-6xl w-full px-5 sm:px-8 pb-20 sm:pb-28 pt-32 text-sand-50">
