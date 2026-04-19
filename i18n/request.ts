@@ -1,5 +1,7 @@
 import { getRequestConfig } from 'next-intl/server';
 import { routing } from './routing';
+import { getMessagesForLocale } from '@/lib/content';
+import type { Locale } from '@/lib/supabase/types';
 
 export default getRequestConfig(async ({ requestLocale }) => {
   let locale = await requestLocale;
@@ -7,7 +9,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     locale = routing.defaultLocale;
   }
 
-  const messages = (await import(`../content/${locale}.json`)).default;
+  const messages = await getMessagesForLocale(locale as Locale);
 
   return { locale, messages };
 });

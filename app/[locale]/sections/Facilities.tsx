@@ -5,7 +5,7 @@ import {
   Droplets,
   Microwave,
   Luggage,
-  KeyRound,
+  Sparkles,
   type LucideIcon,
 } from 'lucide-react';
 import FadeIn from '@/components/FadeIn';
@@ -18,7 +18,7 @@ const ICONS: LucideIcon[] = [
   Droplets,
   Microwave,
   Luggage,
-  KeyRound,
+  Sparkles,
 ];
 
 export default function Facilities() {

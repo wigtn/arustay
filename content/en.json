@@ -14,56 +14,68 @@
   },
   "hero": {
     "eyebrow": "ARU STAY · SEOUL",
-    "title": "A quiet base for your days in Seoul.",
+    "title": "A cozy base for your days in Seoul.",
     "subtitle": "Soft, warm, and thoughtfully cared for. Stay a night, or stay a while.",
     "cta": "Request a Long Stay"
   },
   "about": {
     "eyebrow": "About",
-    "title": "A calm place to return to, every evening.",
-    "body": "ARU STAY is a small, internationally friendly stay in the heart of Seoul. We keep things simple and kind — clean rooms, quiet mornings, and an easy, self-guided rhythm.",
+    "title": "Run by travelers, for travelers.",
+    "body": "ARU STAY is a small, internationally friendly stay in the heart of Seoul. We keep things simple and kind — clean rooms, quiet mornings, and an easy, self-guided rhythm. We truly enjoy what we do, and we care deeply about every guest who walks through our doors. More than anything, we hope ARU STAY feels like a place you can feel at ease, just like home.",
     "points": [
-      { "title": "International guests welcome", "body": "English, Japanese, Chinese and Korean support." },
-      { "title": "Self check-in after 9 PM", "body": "Late arrivals are no problem at all." },
-      { "title": "Long stays encouraged", "body": "Better rates for 10+ night direct inquiries." }
+      { "title": "A stay made with care", "body": "We pay attention to the little things that make your stay comfortable." },
+      { "title": "Thoughtfully made, simply run", "body": "We all love traveling, and we understand the joy it brings. We try to share that same feeling with every guest who stays with us." },
+      { "title": "A place to feel at ease", "body": "We hope you feel relaxed, comfortable, and truly welcomed here." }
     ]
   },
   "rooms": {
     "eyebrow": "Rooms",
-    "title": "Comfortable rooms, honestly made.",
+    "title": "Not too much, not too little.",
+    "subtitle": "Our rooms are compact, but thoughtfully arranged with the essentials for a comfortable stay. We keep things simple, practical, and reasonably priced, so you can enjoy Seoul without paying for more than you need.",
     "viewDetails": "View details",
     "close": "Close",
     "size": "Size",
     "capacityLabel": "Capacity",
+    "bedsLabel": "Bed Configuration",
     "amenitiesLabel": "Amenities",
+    "slide": "Slide {current} of {total}",
+    "prev": "Previous image",
+    "next": "Next image",
     "items": [
       {
-        "name": "Single Room",
-        "capacity": "1 guest",
-        "size": "14 m²",
-        "desc": "A compact, quiet room with everything you need for a simple stay.",
-        "amenities": ["Single bed", "Private bathroom", "Desk", "Wi-Fi", "Air conditioning"]
-      },
-      {
+        "slug": "double",
         "name": "Double Room",
         "capacity": "2 guests",
-        "size": "18 m²",
-        "desc": "A soft double bed, warm lighting, and a calm atmosphere.",
-        "amenities": ["Double bed", "Private bathroom", "Desk", "Wi-Fi", "Blackout curtains"]
+        "size": "14 m²",
+        "beds": "1 Double Bed (1,300 × 2,000 mm)",
+        "desc": "A compact, comfortable room with a soft double bed and warm lighting.",
+        "amenities": ["Free Wi-Fi", "Flat-screen TV", "Air Conditioning", "Private Bathroom", "Hair Dryer"],
+        "images": [
+          "/images/optimized/double-1.avif",
+          "/images/optimized/double-2.avif",
+          "/images/optimized/double-3.avif",
+          "/images/optimized/double-4.avif",
+          "/images/optimized/double-5.avif",
+          "/images/optimized/double-6.avif",
+          "/images/optimized/double-7.avif"
+        ]
       },
       {
+        "slug": "twin",
         "name": "Twin Room",
         "capacity": "2 guests",
-        "size": "20 m²",
+        "size": "15 m²",
+        "beds": "2 Single Beds (900 × 2,000 mm each)",
         "desc": "Two single beds for friends or family traveling together.",
-        "amenities": ["Two single beds", "Private bathroom", "Wi-Fi", "Closet", "Warm lighting"]
-      },
-      {
-        "name": "Family Room",
-        "capacity": "3–4 guests",
-        "size": "28 m²",
-        "desc": "Roomier layout for small groups who want to stay together.",
-        "amenities": ["Double + single beds", "Private bathroom", "Extra seating", "Wi-Fi", "Luggage space"]
+        "amenities": ["Free Wi-Fi", "Flat-screen TV", "Air Conditioning", "Private Bathroom", "Hair Dryer"],
+        "images": [
+          "/images/optimized/twin-1.avif",
+          "/images/optimized/twin-2.avif",
+          "/images/optimized/twin-3.avif",
+          "/images/optimized/twin-4.avif",
+          "/images/optimized/twin-5.avif",
+          "/images/optimized/twin-6.avif"
+        ]
       }
     ]
   },
@@ -85,11 +97,11 @@
     "title": "The essentials, done well.",
     "items": [
       { "name": "Lounge", "desc": "A shared space to relax or work." },
-      { "name": "Washing Machine", "desc": "Free to use during your stay." },
-      { "name": "Water Purifier", "desc": "Cold and hot water, anytime." },
+      { "name": "Washing & Drying Machine", "desc": "Wash and dry in one easy cycle." },
+      { "name": "Water Dispenser", "desc": "Cold and hot water, anytime." },
       { "name": "Microwave", "desc": "For quick meals and late snacks." },
-      { "name": "Luggage Storage", "desc": "Before check-in or after check-out." },
-      { "name": "Self Check-in after 9 PM", "desc": "Arrive late without any stress." }
+      { "name": "Free Luggage Storage", "desc": "Available before check-in and after check-out." },
+      { "name": "Comfort Essentials", "desc": "Extra towels and toilet paper are available on each floor." }
     ]
   },
   "location": {
@@ -103,7 +115,11 @@
       { "place": "Myeongdong", "time": "15 min" },
       { "place": "Hongdae", "time": "25 min" }
     ],
-    "nearby": "Around the stay you'll find convenience stores, Olive Young, Daiso, and local supermarkets — everything for daily life."
+    "nearby": "Around the stay you'll find convenience stores, Olive Young, Daiso, and local supermarkets — everything for daily life.",
+    "mapLinks": {
+      "google": "Google Maps",
+      "naver": "Naver Map"
+    }
   },
   "faq": {
     "eyebrow": "FAQ",
@@ -131,7 +147,7 @@
       },
       {
         "q": "Is there laundry and luggage storage on site?",
-        "a": "Yes. A washing machine, water purifier, microwave and luggage storage are available to all guests."
+        "a": "Yes. A washing & drying machine, water dispenser, microwave and free luggage storage are available to all guests."
       }
     ]
   },
@@ -161,6 +177,7 @@
   },
   "footer": {
     "tagline": "ARU STAY · Seoul",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "credit": "Crafted by"
   }
 }

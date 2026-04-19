@@ -6,6 +6,7 @@ import {
   AGODA_URL,
   INSTAGRAM_URL,
   EMAIL,
+  CREW,
 } from '@/lib/constants';
 
 export default function Booking() {
@@ -87,8 +88,19 @@ export default function Booking() {
           </FadeIn>
         </div>
 
-        <footer className="mt-24 pt-8 border-t border-sand-200 flex flex-col sm:flex-row justify-between gap-3 text-xs text-ink-mute">
+        <footer className="mt-24 pt-8 border-t border-sand-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs text-ink-mute">
           <p>{footer('tagline')}</p>
+          <p className="sm:text-center">
+            {footer('credit')}{' '}
+            <a
+              href={CREW.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium tracking-wider2 text-ink hover:text-ink-soft transition-colors"
+            >
+              {CREW.name} ↗
+            </a>
+          </p>
           <p>
             © {new Date().getFullYear()} ARU STAY. {footer('rights')}
           </p>

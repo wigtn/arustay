@@ -14,56 +14,68 @@
   },
   "hero": {
     "eyebrow": "ARU STAY · SEOUL",
-    "title": "首尔日常里,一处安静的据点。",
+    "title": "首尔日常里,一处舒心的据点。",
     "subtitle": "柔和、温暖、用心照料。住一晚,或住一段时间。",
     "cta": "咨询长期入住"
   },
   "about": {
     "eyebrow": "About",
-    "title": "每晚都可以安心回来的地方。",
-    "body": "ARU STAY 是位于首尔中心、对国际旅客友好的小型住宿。我们把事情做得简单而用心 — 干净的房间、安静的清晨、自在的节奏。",
+    "title": "旅行者为旅行者打造的小宿。",
+    "body": "ARU STAY 位于首尔中心,是一家对国际旅客友好的小型住宿。我们把事情做得简单而用心 — 干净的房间、安静的清晨,以及自在的自助入住节奏。我们真心喜欢这份工作,也认真对待每一位走进门的客人。更重要的是,希望 ARU STAY 能像家一样,让您安心、自在。",
     "points": [
-      { "title": "多语种支持", "body": "英语、日语、中文、韩语均可。" },
-      { "title": "晚上9点后自助登记", "body": "晚到也完全没问题。" },
-      { "title": "欢迎长期入住", "body": "10晚以上直接咨询享更优价格。" }
+      { "title": "用心打理的住宿", "body": "我们关注细节,希望您在此停留期间都舒适自在。" },
+      { "title": "认真经营,简单营运", "body": "我们都热爱旅行,明白旅行带来的喜悦。我们希望把同样的心情,分享给每一位入住的旅人。" },
+      { "title": "可以安心的空间", "body": "希望您在这里感到放松、舒适,并真正被温暖地接待。" }
     ]
   },
   "rooms": {
     "eyebrow": "Rooms",
-    "title": "踏实用心的舒适房间。",
+    "title": "不多不少,刚刚好。",
+    "subtitle": "我们的客房紧凑,却经过细致安排,配齐了舒适入住所需的基本物件。保持简单、实用、价格合理,让您可以尽情享受首尔,而不必为多余的东西买单。",
     "viewDetails": "查看详情",
     "close": "关闭",
     "size": "面积",
     "capacityLabel": "入住人数",
+    "bedsLabel": "床铺配置",
     "amenitiesLabel": "设施",
+    "slide": "{current} / {total}",
+    "prev": "上一张",
+    "next": "下一张",
     "items": [
       {
-        "name": "单人房",
-        "capacity": "1人",
-        "size": "14 m²",
-        "desc": "紧凑安静,满足基本所需。",
-        "amenities": ["单人床", "独立浴室", "书桌", "Wi-Fi", "空调"]
-      },
-      {
+        "slug": "double",
         "name": "双人房",
         "capacity": "2人",
-        "size": "18 m²",
-        "desc": "柔软大床,温暖灯光。",
-        "amenities": ["双人床", "独立浴室", "书桌", "Wi-Fi", "遮光窗帘"]
+        "size": "14 m²",
+        "beds": "双人床 1 张 (1,300 × 2,000 mm)",
+        "desc": "柔软大床,温暖灯光,紧凑舒适。",
+        "amenities": ["免费 Wi-Fi", "平板电视", "空调", "独立浴室", "吹风机"],
+        "images": [
+          "/images/optimized/double-1.avif",
+          "/images/optimized/double-2.avif",
+          "/images/optimized/double-3.avif",
+          "/images/optimized/double-4.avif",
+          "/images/optimized/double-5.avif",
+          "/images/optimized/double-6.avif",
+          "/images/optimized/double-7.avif"
+        ]
       },
       {
+        "slug": "twin",
         "name": "双床房",
         "capacity": "2人",
-        "size": "20 m²",
-        "desc": "适合朋友或家人同住。",
-        "amenities": ["两张单人床", "独立浴室", "Wi-Fi", "衣柜", "温馨灯光"]
-      },
-      {
-        "name": "家庭房",
-        "capacity": "3–4人",
-        "size": "28 m²",
-        "desc": "空间更宽敞,适合小团体。",
-        "amenities": ["双人+单人床", "独立浴室", "休憩座椅", "Wi-Fi", "行李空间"]
+        "size": "15 m²",
+        "beds": "单人床 2 张 (每张 900 × 2,000 mm)",
+        "desc": "两张单人床,适合朋友或家人同住。",
+        "amenities": ["免费 Wi-Fi", "平板电视", "空调", "独立浴室", "吹风机"],
+        "images": [
+          "/images/optimized/twin-1.avif",
+          "/images/optimized/twin-2.avif",
+          "/images/optimized/twin-3.avif",
+          "/images/optimized/twin-4.avif",
+          "/images/optimized/twin-5.avif",
+          "/images/optimized/twin-6.avif"
+        ]
       }
     ]
   },
@@ -85,11 +97,11 @@
     "title": "把基本的做好。",
     "items": [
       { "name": "休息室", "desc": "可放松或办公的共享空间。" },
-      { "name": "洗衣机", "desc": "住宿期间免费使用。" },
+      { "name": "洗烘一体机", "desc": "一次循环即可洗涤与烘干。" },
       { "name": "饮水机", "desc": "随时提供冷热水。" },
       { "name": "微波炉", "desc": "加热简餐与夜宵。" },
-      { "name": "行李寄存", "desc": "入住前或退房后均可。" },
-      { "name": "晚上9点后自助登记", "desc": "晚到也轻松入住。" }
+      { "name": "免费行李寄存", "desc": "入住前或退房后均可使用。" },
+      { "name": "贴心备品", "desc": "各楼层均备有额外的毛巾与卫生纸。" }
     ]
   },
   "location": {
@@ -103,7 +115,11 @@
       { "place": "明洞", "time": "15分钟" },
       { "place": "弘大", "time": "25分钟" }
     ],
-    "nearby": "周边有便利店、Olive Young、Daiso 与超市,日常所需一应俱全。"
+    "nearby": "周边有便利店、Olive Young、Daiso 与超市,日常所需一应俱全。",
+    "mapLinks": {
+      "google": "Google 地图",
+      "naver": "Naver 地图"
+    }
   },
   "faq": {
     "eyebrow": "FAQ",
@@ -131,7 +147,7 @@
       },
       {
         "q": "有洗衣机和行李寄存吗?",
-        "a": "有。洗衣机、净水器、微波炉、行李寄存所有住客均可免费使用。"
+        "a": "有。洗烘一体机、饮水机、微波炉和免费行李寄存,所有住客均可使用。"
       }
     ]
   },
@@ -161,6 +177,7 @@
   },
   "footer": {
     "tagline": "ARU STAY · Seoul",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "credit": "制作"
   }
 }

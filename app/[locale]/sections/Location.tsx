@@ -1,8 +1,12 @@
 import { useTranslations } from 'next-intl';
+import { ExternalLink } from 'lucide-react';
 import FadeIn from '@/components/FadeIn';
-import { GOOGLE_MAPS_EMBED_SRC } from '@/lib/constants';
+import { GOOGLE_MAPS_EMBED_SRC, BUSINESS } from '@/lib/constants';
 
 type Access = { place: string; time: string };
+
+const GOOGLE_MAPS_URL = `https://www.google.com/maps/search/?api=1&query=${BUSINESS.latitude},${BUSINESS.longitude}`;
+const NAVER_MAP_URL = `https://map.naver.com/p/search/${encodeURIComponent('왕십리역')}`;
 
 export default function Location() {
   const t = useTranslations('location');
@@ -29,6 +33,27 @@ export default function Location() {
             <p className="mt-8 text-sm text-ink-soft leading-relaxed">
               {t('nearby')}
             </p>
+
+            <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm">
+              <a
+                href={GOOGLE_MAPS_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-ink hover:text-ink-soft underline underline-offset-4 decoration-sand-300 hover:decoration-sand-500 transition-colors"
+              >
+                {t('mapLinks.google')}
+                <ExternalLink size={14} strokeWidth={1.8} aria-hidden />
+              </a>
+              <a
+                href={NAVER_MAP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-ink hover:text-ink-soft underline underline-offset-4 decoration-sand-300 hover:decoration-sand-500 transition-colors"
+              >
+                {t('mapLinks.naver')}
+                <ExternalLink size={14} strokeWidth={1.8} aria-hidden />
+              </a>
+            </div>
           </FadeIn>
 
           <FadeIn className="md:col-span-3" delay={0.1}>

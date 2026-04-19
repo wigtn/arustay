@@ -1,8 +1,8 @@
 export const SECTION_IDS = [
   'about',
   'rooms',
-  'long-stay',
   'facilities',
+  'long-stay',
   'location',
   'guest-notes',
   'book',
@@ -23,6 +23,11 @@ export const GOOGLE_MAPS_EMBED_SRC =
 
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? 'https://arustay.com';
+
+export const CREW = {
+  name: 'WIGTN',
+  url: 'https://wigtn.com',
+} as const;
 
 export const BUSINESS = {
   name: 'ARU STAY',

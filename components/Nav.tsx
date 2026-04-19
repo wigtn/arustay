@@ -8,8 +8,8 @@ import LanguageSwitcher from './LanguageSwitcher';
 const NAV_KEYS: Array<{ id: SectionId; key: keyof NavKeyMap }> = [
   { id: 'about', key: 'about' },
   { id: 'rooms', key: 'rooms' },
-  { id: 'long-stay', key: 'longStay' },
   { id: 'facilities', key: 'facilities' },
+  { id: 'long-stay', key: 'longStay' },
   { id: 'location', key: 'location' },
   { id: 'guest-notes', key: 'guestNotes' },
   { id: 'book', key: 'book' },

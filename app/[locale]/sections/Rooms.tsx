@@ -3,23 +3,20 @@
 import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { AnimatePresence, motion } from 'framer-motion';
-import { X, Users, Maximize2, Check } from 'lucide-react';
+import { X, Users, Maximize2, Check, BedDouble } from 'lucide-react';
 import FadeIn from '@/components/FadeIn';
+import RoomCarousel from '@/components/RoomCarousel';
 
 type Room = {
+  slug: string;
   name: string;
   capacity: string;
   size: string;
+  beds: string;
   desc: string;
   amenities: string[];
+  images: string[];
 };
-
-const IMAGES = [
-  'https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=1600&q=80',
-  'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1600&q=80',
-  'https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=1600&q=80',
-  'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1600&q=80',
-];
 
 export default function Rooms() {
   const t = useTranslations('rooms');
@@ -40,7 +37,12 @@ export default function Rooms() {
   }, [openIdx]);
 
   const active = openIdx !== null ? items[openIdx] : null;
-  const activeImage = openIdx !== null ? IMAGES[openIdx % IMAGES.length] : '';
+
+  const carouselLabels = {
+    prev: t('prev'),
+    next: t('next'),
+    slide: (current: number, total: number) => t('slide', { current, total }),
+  };
 
   return (
     <section id="rooms" className="bg-sand-100/50">
@@ -48,35 +50,38 @@ export default function Rooms() {
         <FadeIn>
           <p className="eyebrow">{t('eyebrow')}</p>
           <h2 className="heading mt-3 max-w-2xl">{t('title')}</h2>
+          <p className="lede mt-5 max-w-2xl">{t('subtitle')}</p>
         </FadeIn>
 
         <div className="mt-14 grid sm:grid-cols-2 gap-6 md:gap-8">
           {items.map((room, i) => (
-            <FadeIn key={room.name} delay={i * 0.05}>
-              <button
-                onClick={() => setOpenIdx(i)}
-                className="group relative overflow-hidden rounded-2xl bg-sand-200 aspect-[4/5] w-full text-left"
-              >
-                <div
-                  className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-                  style={{
-                    backgroundImage: `linear-gradient(180deg, rgba(42,38,35,0) 40%, rgba(42,38,35,0.82) 100%), url(${IMAGES[i % IMAGES.length]})`,
-                  }}
-                  aria-hidden
+            <FadeIn key={room.slug} delay={i * 0.05}>
+              <div className="group overflow-hidden rounded-2xl bg-sand-50 ring-1 ring-sand-200/70">
+                <RoomCarousel
+                  images={room.images}
+                  alt={room.name}
+                  labels={carouselLabels}
+                  className="aspect-[4/3] w-full"
                 />
-                <div className="absolute inset-0 flex flex-col justify-end p-6 sm:p-8 text-sand-50">
-                  <p className="text-xs tracking-wider2 uppercase text-sand-50/80">
-                    {room.capacity}
+                <div className="p-6 sm:p-7">
+                  <p className="text-xs tracking-wider2 uppercase text-ink-mute">
+                    {room.capacity} · {room.size}
                   </p>
-                  <h3 className="mt-2 font-serif text-2xl sm:text-3xl">{room.name}</h3>
-                  <p className="mt-2 text-sm text-sand-50/90 max-w-xs leading-relaxed">
-                    {room.desc}
+                  <h3 className="mt-2 font-serif text-2xl sm:text-3xl text-ink">
+                    {room.name}
+                  </h3>
+                  <p className="mt-2 text-sm text-ink-soft leading-relaxed">
+                    {room.beds}
                   </p>
-                  <span className="mt-4 inline-flex items-center gap-1.5 text-xs uppercase tracking-wider text-sand-50/90 group-hover:text-sand-50">
+                  <button
+                    type="button"
+                    onClick={() => setOpenIdx(i)}
+                    className="mt-5 inline-flex items-center gap-1.5 text-xs uppercase tracking-wider text-ink hover:text-ink-soft transition-colors"
+                  >
                     {t('viewDetails')} <span aria-hidden>→</span>
-                  </span>
+                  </button>
                 </div>
-              </button>
+              </div>
             </FadeIn>
           ))}
         </div>
@@ -100,7 +105,7 @@ export default function Rooms() {
               role="dialog"
               aria-modal="true"
               aria-label={active.name}
-              className="relative z-10 w-full max-w-4xl max-h-[90vh] overflow-auto bg-sand-50 rounded-2xl shadow-2xl"
+              className="relative z-10 w-full max-w-5xl max-h-[90vh] overflow-auto bg-sand-50 rounded-2xl shadow-2xl"
               initial={{ opacity: 0, y: 24, scale: 0.98 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: 16, scale: 0.98 }}
@@ -108,17 +113,18 @@ export default function Rooms() {
             >
               <button
                 onClick={() => setOpenIdx(null)}
-                className="absolute top-4 right-4 z-10 flex h-10 w-10 items-center justify-center rounded-full bg-sand-50/90 text-ink hover:bg-white transition-colors"
+                className="absolute top-4 right-4 z-10 flex h-10 w-10 items-center justify-center rounded-full bg-sand-50/90 text-ink hover:bg-white transition-colors shadow-sm"
                 aria-label={t('close')}
               >
                 <X size={18} strokeWidth={1.8} />
               </button>
 
               <div className="grid md:grid-cols-2">
-                <div
-                  className="aspect-[4/3] md:aspect-auto md:min-h-[420px] bg-cover bg-center"
-                  style={{ backgroundImage: `url(${activeImage})` }}
-                  aria-hidden
+                <RoomCarousel
+                  images={active.images}
+                  alt={active.name}
+                  labels={carouselLabels}
+                  className="aspect-[4/3] md:aspect-auto md:min-h-[480px] md:h-full"
                 />
                 <div className="p-7 sm:p-10">
                   <p className="eyebrow">{t('eyebrow')}</p>
@@ -147,6 +153,16 @@ export default function Rooms() {
                       </div>
                     </div>
                   </dl>
+
+                  <div className="mt-5 flex items-start gap-2.5 text-sm">
+                    <BedDouble size={16} strokeWidth={1.6} className="text-ink-mute mt-0.5" />
+                    <div>
+                      <dt className="text-xs uppercase tracking-wider text-ink-mute">
+                        {t('bedsLabel')}
+                      </dt>
+                      <dd className="text-ink">{active.beds}</dd>
+                    </div>
+                  </div>
 
                   <div className="mt-6 pt-6 border-t border-sand-200">
                     <p className="text-xs uppercase tracking-wider text-ink-mute">

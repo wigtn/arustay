@@ -1,10 +1,11 @@
 import { setRequestLocale } from 'next-intl/server';
 import Nav from '@/components/Nav';
 import FloatingCTA from '@/components/FloatingCTA';
+import Hero from './sections/Hero';
 import About from './sections/About';
 import Rooms from './sections/Rooms';
-import LongStay from './sections/LongStay';
 import Facilities from './sections/Facilities';
+import LongStay from './sections/LongStay';
 import Location from './sections/Location';
 import GuestNotes from './sections/GuestNotes';
 import Faq from './sections/Faq';
@@ -21,10 +22,11 @@ export default async function HomePage({
   return (
     <main>
       <Nav />
+      <Hero />
       <About />
       <Rooms />
-      <LongStay />
       <Facilities />
+      <LongStay />
       <Location />
       <GuestNotes />
       <Faq />

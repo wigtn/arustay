@@ -14,56 +14,68 @@
   },
   "hero": {
     "eyebrow": "ARU STAY · SEOUL",
-    "title": "서울에서의 하루에, 조용한 거점.",
+    "title": "서울에서의 하루를 위한 아늑한 거점.",
     "subtitle": "부드럽고 따뜻하며, 정성껏 정돈된 공간. 하룻밤이든, 한 달이든.",
     "cta": "장기 숙박 문의하기"
   },
   "about": {
     "eyebrow": "About",
-    "title": "매일 저녁, 조용히 돌아올 수 있는 곳.",
-    "body": "ARU STAY는 서울 한복판의 작고 국제적인 숙소입니다. 깨끗한 객실, 조용한 아침, 편안한 자율 체크인 — 단순하고 따뜻하게 운영합니다.",
+    "title": "여행자가 여행자를 위해 운영하는 숙소.",
+    "body": "ARU STAY는 서울 한복판의 작고 국제적인 숙소예요. 저희는 단순하고 다정한 것들을 중요하게 생각해요 — 깨끗한 객실, 조용한 아침, 그리고 부담 없는 자율 체크인 리듬까지. 저희는 이 일을 진심으로 즐기고, 문을 열고 들어오시는 모든 분을 귀하게 생각해요. 무엇보다도 ARU STAY가 집처럼 편히 쉴 수 있는 곳으로 느껴지길 바랍니다.",
     "points": [
-      { "title": "다국어 응대", "body": "영어, 일본어, 중국어, 한국어 지원." },
-      { "title": "밤 9시 이후 셀프 체크인", "body": "늦은 도착도 부담 없이." },
-      { "title": "장기 숙박 환영", "body": "10박 이상 직접 문의 시 더 좋은 조건." }
+      { "title": "정성껏 준비한 숙소", "body": "머무는 동안 편안하시도록 작은 부분까지 신경 쓰고 있어요." },
+      { "title": "마음을 담아, 단정하게 운영", "body": "저희 모두 여행을 좋아하고, 여행이 주는 즐거움을 잘 알아요. 그 마음을 모든 투숙객과 함께 나누려 해요." },
+      { "title": "편히 쉴 수 있는 공간", "body": "여기서 긴장을 풀고, 편안하게, 따뜻하게 환영받는다고 느끼시면 좋겠어요." }
     ]
   },
   "rooms": {
     "eyebrow": "Rooms",
-    "title": "정성스럽게 만든 편안한 객실.",
+    "title": "넘치지도, 부족하지도 않게.",
+    "subtitle": "저희 객실은 작지만, 편안한 숙박에 꼭 필요한 것들을 신중하게 준비했어요. 단순하고 실용적이며 합리적인 가격으로, 필요 이상은 지불하지 않으면서 서울을 즐기실 수 있도록 했어요.",
     "viewDetails": "자세히 보기",
     "close": "닫기",
     "size": "크기",
     "capacityLabel": "인원",
+    "bedsLabel": "침대 구성",
     "amenitiesLabel": "편의사항",
+    "slide": "{current} / {total}",
+    "prev": "이전 이미지",
+    "next": "다음 이미지",
     "items": [
       {
-        "name": "싱글룸",
-        "capacity": "1인",
-        "size": "14 m²",
-        "desc": "조용하고 아담하며, 필요한 것이 갖춰진 방.",
-        "amenities": ["싱글 침대", "개별 욕실", "책상", "Wi-Fi", "에어컨"]
-      },
-      {
+        "slug": "double",
         "name": "더블룸",
         "capacity": "2인",
-        "size": "18 m²",
-        "desc": "부드러운 더블 침대와 따뜻한 조명.",
-        "amenities": ["더블 침대", "개별 욕실", "책상", "Wi-Fi", "암막 커튼"]
+        "size": "14 m²",
+        "beds": "더블 침대 1개 (1,300 × 2,000 mm)",
+        "desc": "부드러운 더블 침대와 따뜻한 조명이 있는 아담하고 편안한 방.",
+        "amenities": ["무료 Wi-Fi", "평면 TV", "에어컨", "개별 욕실", "헤어드라이어"],
+        "images": [
+          "/images/optimized/double-1.avif",
+          "/images/optimized/double-2.avif",
+          "/images/optimized/double-3.avif",
+          "/images/optimized/double-4.avif",
+          "/images/optimized/double-5.avif",
+          "/images/optimized/double-6.avif",
+          "/images/optimized/double-7.avif"
+        ]
       },
       {
+        "slug": "twin",
         "name": "트윈룸",
         "capacity": "2인",
-        "size": "20 m²",
-        "desc": "친구·가족과 함께하기 좋은 싱글 침대 두 개.",
-        "amenities": ["싱글 침대 2개", "개별 욕실", "Wi-Fi", "옷장", "따뜻한 조명"]
-      },
-      {
-        "name": "패밀리룸",
-        "capacity": "3–4인",
-        "size": "28 m²",
-        "desc": "소규모 일행에게 넉넉한 공간.",
-        "amenities": ["더블+싱글 침대", "개별 욕실", "여유로운 좌석", "Wi-Fi", "짐 보관 공간"]
+        "size": "15 m²",
+        "beds": "싱글 침대 2개 (각 900 × 2,000 mm)",
+        "desc": "친구나 가족과 함께 머물기 좋은 싱글 침대 2개 구성.",
+        "amenities": ["무료 Wi-Fi", "평면 TV", "에어컨", "개별 욕실", "헤어드라이어"],
+        "images": [
+          "/images/optimized/twin-1.avif",
+          "/images/optimized/twin-2.avif",
+          "/images/optimized/twin-3.avif",
+          "/images/optimized/twin-4.avif",
+          "/images/optimized/twin-5.avif",
+          "/images/optimized/twin-6.avif"
+        ]
       }
     ]
   },
@@ -85,11 +97,11 @@
     "title": "기본을 제대로.",
     "items": [
       { "name": "라운지", "desc": "쉬거나 일하기 좋은 공용 공간." },
-      { "name": "세탁기", "desc": "투숙 기간 동안 자유롭게 사용." },
+      { "name": "세탁·건조 겸용기", "desc": "한 번의 사이클로 세탁과 건조 모두." },
       { "name": "정수기", "desc": "냉·온수 언제든지." },
       { "name": "전자레인지", "desc": "간단한 식사나 야식 데우기." },
-      { "name": "짐 보관", "desc": "체크인 전·체크아웃 후 모두 가능." },
-      { "name": "9시 이후 셀프 체크인", "desc": "늦은 도착도 편하게." }
+      { "name": "무료 짐 보관", "desc": "체크인 전·체크아웃 후 모두 이용 가능." },
+      { "name": "편의용품", "desc": "여분의 수건과 화장지가 각 층에 준비되어 있어요." }
     ]
   },
   "location": {
@@ -103,7 +115,11 @@
       { "place": "명동", "time": "15분" },
       { "place": "홍대", "time": "25분" }
     ],
-    "nearby": "숙소 주변에는 편의점, 올리브영, 다이소, 마트 등 생활에 필요한 것들이 모두 있습니다."
+    "nearby": "숙소 주변에는 편의점, 올리브영, 다이소, 마트 등 생활에 필요한 것들이 모두 있습니다.",
+    "mapLinks": {
+      "google": "구글 지도",
+      "naver": "네이버 지도"
+    }
   },
   "faq": {
     "eyebrow": "FAQ",
@@ -131,7 +147,7 @@
       },
       {
         "q": "세탁기와 짐 보관이 가능한가요?",
-        "a": "네. 세탁기, 정수기, 전자레인지, 짐 보관 모두 투숙객 누구나 이용하실 수 있습니다."
+        "a": "네. 세탁·건조 겸용기, 정수기, 전자레인지, 무료 짐 보관 모두 투숙객 누구나 이용하실 수 있습니다."
       }
     ]
   },
@@ -161,6 +177,7 @@
   },
   "footer": {
     "tagline": "ARU STAY · Seoul",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "credit": "제작"
   }
 }
