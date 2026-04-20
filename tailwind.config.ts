@@ -25,6 +25,18 @@ const config: Config = {
           soft: '#5a534d',
           mute: '#8b857f',
         },
+        danchung: {
+          50: '#fbeae6',
+          100: '#f5cec7',
+          200: '#e8a89d',
+          300: '#d57e6e',
+          400: '#b95543',
+          500: '#9c3a2b',
+          600: '#7d2d21',
+          700: '#5c2118',
+          800: '#3d150f',
+          900: '#1e0a07',
+        },
       },
       fontFamily: {
         serif: ['var(--font-serif)', 'Georgia', 'serif'],

@@ -56,7 +56,7 @@ export default function Rooms() {
         <div className="mt-14 grid sm:grid-cols-2 gap-6 md:gap-8">
           {items.map((room, i) => (
             <FadeIn key={room.slug} delay={i * 0.05}>
-              <div className="group overflow-hidden rounded-2xl bg-sand-50 ring-1 ring-sand-200/70">
+              <div className="group overflow-hidden rounded-sm bg-sand-50 ring-1 ring-sand-200/70 transition-all duration-500 hover:-translate-y-1.5 hover:ring-ink/40 hover:shadow-[0_24px_48px_-24px_rgba(42,38,35,0.28)]">
                 <RoomCarousel
                   images={room.images}
                   alt={room.name}
@@ -76,9 +76,15 @@ export default function Rooms() {
                   <button
                     type="button"
                     onClick={() => setOpenIdx(i)}
-                    className="mt-5 inline-flex items-center gap-1.5 text-xs uppercase tracking-wider text-ink hover:text-ink-soft transition-colors"
+                    className="mt-6 group/btn inline-flex items-center gap-2 border border-ink px-5 py-2.5 text-[11px] uppercase tracking-wider2 text-ink transition-all duration-300 hover:bg-ink hover:text-sand-50"
                   >
-                    {t('viewDetails')} <span aria-hidden>→</span>
+                    <span>{t('viewDetails')}</span>
+                    <span
+                      aria-hidden
+                      className="inline-block transition-transform duration-300 group-hover/btn:translate-x-1"
+                    >
+                      →
+                    </span>
                   </button>
                 </div>
               </div>
@@ -105,7 +111,7 @@ export default function Rooms() {
               role="dialog"
               aria-modal="true"
               aria-label={active.name}
-              className="relative z-10 w-full max-w-5xl max-h-[90vh] overflow-auto bg-sand-50 rounded-2xl shadow-2xl"
+              className="relative z-10 w-full max-w-5xl max-h-[90vh] overflow-auto bg-sand-50 rounded-sm shadow-2xl"
               initial={{ opacity: 0, y: 24, scale: 0.98 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: 16, scale: 0.98 }}
