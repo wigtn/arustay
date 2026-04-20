@@ -10,21 +10,21 @@ const OUT = resolve(ROOT, 'optimized');
 mkdirSync(OUT, { recursive: true });
 
 const JOBS = [
-  { src: 'main.jpg',        out: 'hero.avif',     maxWidth: 1600, quality: 62 },
-  { src: 'about.jpg',       out: 'about.avif',    maxWidth: 1600, quality: 62 },
-  { src: 'double (1).jpg',  out: 'double-1.avif', maxWidth: 1400, quality: 58 },
-  { src: 'double (2).jpg',  out: 'double-2.avif', maxWidth: 1400, quality: 58 },
-  { src: 'double (3).jpg',  out: 'double-3.avif', maxWidth: 1400, quality: 58 },
-  { src: 'double (4).jpg',  out: 'double-4.avif', maxWidth: 1400, quality: 58 },
-  { src: 'double (5).jpg',  out: 'double-5.avif', maxWidth: 1400, quality: 58 },
-  { src: 'double (6).jpg',  out: 'double-6.avif', maxWidth: 1400, quality: 58 },
-  { src: 'double (7).jpg',  out: 'double-7.avif', maxWidth: 1400, quality: 58 },
-  { src: 'twin.jpg',        out: 'twin-1.avif',   maxWidth: 1400, quality: 58 },
-  { src: 'twin (2).jpg',    out: 'twin-2.avif',   maxWidth: 1400, quality: 58 },
-  { src: 'twin (3).jpg',    out: 'twin-3.avif',   maxWidth: 1400, quality: 58 },
-  { src: 'twin (4).jpg',    out: 'twin-4.avif',   maxWidth: 1400, quality: 58 },
-  { src: 'twin (5).jpg',    out: 'twin-5.avif',   maxWidth: 1400, quality: 58 },
-  { src: 'twin (6).jpg',    out: 'twin-6.avif',   maxWidth: 1400, quality: 58 },
+  { src: 'main.jpg',        out: 'hero.avif',     maxWidth: 1600, quality: 78 },
+  { src: 'about.jpg',       out: 'about.avif',    maxWidth: 1600, quality: 78 },
+  { src: 'double (1).jpg',  out: 'double-1.avif', maxWidth: 1400, quality: 75 },
+  { src: 'double (2).jpg',  out: 'double-2.avif', maxWidth: 1400, quality: 75 },
+  { src: 'double (3).jpg',  out: 'double-3.avif', maxWidth: 1400, quality: 75 },
+  { src: 'double (4).jpg',  out: 'double-4.avif', maxWidth: 1400, quality: 75 },
+  { src: 'double (5).jpg',  out: 'double-5.avif', maxWidth: 1400, quality: 75 },
+  { src: 'double (6).jpg',  out: 'double-6.avif', maxWidth: 1400, quality: 75 },
+  { src: 'double (7).jpg',  out: 'double-7.avif', maxWidth: 1400, quality: 75 },
+  { src: 'twin.jpg',        out: 'twin-1.avif',   maxWidth: 1400, quality: 75 },
+  { src: 'twin (2).jpg',    out: 'twin-2.avif',   maxWidth: 1400, quality: 75 },
+  { src: 'twin (3).jpg',    out: 'twin-3.avif',   maxWidth: 1400, quality: 75 },
+  { src: 'twin (4).jpg',    out: 'twin-4.avif',   maxWidth: 1400, quality: 75 },
+  { src: 'twin (5).jpg',    out: 'twin-5.avif',   maxWidth: 1400, quality: 75 },
+  { src: 'twin (6).jpg',    out: 'twin-6.avif',   maxWidth: 1400, quality: 75 },
 ];
 
 const pad = (s, n) => s.padEnd(n, ' ');

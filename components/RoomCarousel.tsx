@@ -164,7 +164,7 @@ export default function RoomCarousel({ images, alt, labels, className = '' }: Pr
             <div
               key={src + i}
               className="relative h-full w-full shrink-0 basis-full bg-cover bg-center"
-              style={{ backgroundImage: `url(${src})` }}
+              style={{ backgroundImage: `url("${src}")` }}
               role="group"
               aria-roledescription="slide"
               aria-label={`${i + 1} / ${total}`}
