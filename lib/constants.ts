@@ -14,7 +14,7 @@ export type SectionId = (typeof SECTION_IDS)[number];
 export const LONG_STAY_FORM_URL = '#'; // Google Form URL (to be provided)
 export const BOOKING_COM_URL = '#';
 export const AGODA_URL = '#';
-export const INSTAGRAM_URL = '#';
+export const INSTAGRAM_URL = 'https://www.instagram.com/arustay.seoul/';
 export const EMAIL = 'hello@arustay.example';
 
 // Google Maps embed placeholder centered around Wangsimni Station

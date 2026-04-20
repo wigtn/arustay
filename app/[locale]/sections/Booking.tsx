@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import { ArrowUpRight, Mail, Instagram, BedDouble } from 'lucide-react';
 import FadeIn from '@/components/FadeIn';
 import {
   LONG_STAY_FORM_URL,
@@ -26,10 +27,14 @@ export default function Booking() {
               href={LONG_STAY_FORM_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-8 inline-flex items-center gap-2 px-6 py-3 rounded-full bg-ink text-sand-50 text-sm font-medium hover:bg-ink-soft transition-colors"
+              className="group mt-8 inline-flex items-center gap-2 px-6 py-3 rounded-full bg-ink text-sand-50 text-sm font-medium transition-all duration-300 hover:bg-ink-soft hover:-translate-y-0.5 hover:shadow-[0_12px_28px_-12px_rgba(42,38,35,0.55)]"
             >
-              {t('longStayCta')}
-              <span aria-hidden>→</span>
+              <span>{t('longStayCta')}</span>
+              <ArrowUpRight
+                size={15}
+                strokeWidth={1.8}
+                className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+              />
             </a>
           </FadeIn>
 
@@ -44,17 +49,37 @@ export default function Booking() {
                     href={BOOKING_COM_URL}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-2 rounded-full border border-sand-300 text-sm text-ink hover:bg-sand-50 transition-colors"
+                    className="group inline-flex items-center gap-2 pl-4 pr-5 py-2.5 rounded-full border border-sand-300 text-sm text-ink transition-all duration-300 hover:bg-ink hover:text-sand-50 hover:border-ink hover:-translate-y-0.5"
                   >
-                    {t('booking')} ↗
+                    <BedDouble
+                      size={15}
+                      strokeWidth={1.6}
+                      className="text-ink-mute transition-colors group-hover:text-sand-50"
+                    />
+                    <span>{t('booking')}</span>
+                    <ArrowUpRight
+                      size={14}
+                      strokeWidth={1.6}
+                      className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                    />
                   </a>
                   <a
                     href={AGODA_URL}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-2 rounded-full border border-sand-300 text-sm text-ink hover:bg-sand-50 transition-colors"
+                    className="group inline-flex items-center gap-2 pl-4 pr-5 py-2.5 rounded-full border border-sand-300 text-sm text-ink transition-all duration-300 hover:bg-ink hover:text-sand-50 hover:border-ink hover:-translate-y-0.5"
                   >
-                    {t('agoda')} ↗
+                    <BedDouble
+                      size={15}
+                      strokeWidth={1.6}
+                      className="text-ink-mute transition-colors group-hover:text-sand-50"
+                    />
+                    <span>{t('agoda')}</span>
+                    <ArrowUpRight
+                      size={14}
+                      strokeWidth={1.6}
+                      className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                    />
                   </a>
                 </div>
               </div>
@@ -63,13 +88,20 @@ export default function Booking() {
                 <p className="text-xs uppercase tracking-wider2 text-ink-mute">
                   {t('contact')}
                 </p>
-                <ul className="mt-3 space-y-2 text-sm">
+                <ul className="mt-3 space-y-2.5 text-sm">
                   <li>
                     <a
                       href={`mailto:${EMAIL}`}
-                      className="text-ink hover:text-ink-soft transition-colors"
+                      className="group inline-flex items-center gap-2.5 text-ink transition-colors hover:text-ink-soft"
                     >
-                      {EMAIL}
+                      <Mail
+                        size={15}
+                        strokeWidth={1.6}
+                        className="text-ink-mute transition-colors group-hover:text-ink"
+                      />
+                      <span className="decoration-ink-mute underline-offset-4 group-hover:underline">
+                        {EMAIL}
+                      </span>
                     </a>
                   </li>
                   <li>
@@ -77,9 +109,21 @@ export default function Booking() {
                       href={INSTAGRAM_URL}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-ink hover:text-ink-soft transition-colors"
+                      className="group inline-flex items-center gap-2.5 text-ink transition-colors hover:text-ink-soft"
                     >
-                      {t('instagram')} ↗
+                      <Instagram
+                        size={15}
+                        strokeWidth={1.6}
+                        className="text-ink-mute transition-colors group-hover:text-ink"
+                      />
+                      <span className="decoration-ink-mute underline-offset-4 group-hover:underline">
+                        {t('instagram')}
+                      </span>
+                      <ArrowUpRight
+                        size={13}
+                        strokeWidth={1.6}
+                        className="text-ink-mute transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                      />
                     </a>
                   </li>
                 </ul>
@@ -96,9 +140,14 @@ export default function Booking() {
               href={CREW.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="font-medium tracking-wider2 text-ink hover:text-ink-soft transition-colors"
+              className="group inline-flex items-center gap-1 font-medium tracking-wider2 text-ink transition-colors hover:text-ink-soft"
             >
-              {CREW.name} ↗
+              {CREW.name}
+              <ArrowUpRight
+                size={12}
+                strokeWidth={1.8}
+                className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+              />
             </a>
           </p>
           <p>
