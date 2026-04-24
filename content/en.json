@@ -84,10 +84,10 @@
     "title": "Planning to stay 10 nights or more?",
     "body": "Reach out to us directly and we'll do our best to prepare better rates and a longer, smoother stay. After you send your inquiry, we'll check availability and reply with a personal payment link.",
     "bullets": [
-      "Better direct rates for 10+ night stays",
-      "Quiet neighborhood, great for remote work",
-      "Close to major Seoul districts",
-      "Personal, human communication"
+      "Stay 10+ nights and enjoy 1 extra night free or a free airport taxi pickup",
+      "Complimentary room cleaning once every 3 days",
+      "A calm neighborhood with easy access to the rest of Seoul",
+      "Thoughtful, personal support throughout your stay"
     ],
     "cta": "Request a Long Stay",
     "note": "You'll be taken to a short Google Form (opens in a new tab)."
@@ -127,7 +127,7 @@
     "items": [
       {
         "q": "Can I check in late at night?",
-        "a": "Yes. Self check-in is available after 9 PM. We send the door code in advance, so late arrivals are no problem."
+        "a": "Yes, you can. From 9:00 PM, when the front desk closes, until 3:00 AM the next day, check-in is available through our contactless check-in support system. No worries — we'll make sure you can check in smoothly."
       },
       {
         "q": "Do you offer discounts for long stays?",
@@ -146,8 +146,8 @@
         "a": "English, Japanese, Chinese and Korean. Please feel free to message us in any of these languages."
       },
       {
-        "q": "Is there laundry and luggage storage on site?",
-        "a": "Yes. A washing & drying machine, water dispenser, microwave and free luggage storage are available to all guests."
+        "q": "When is free luggage storage available?",
+        "a": "We offer free luggage storage both before check-in and after check-out.\n\nBefore check-in: You may leave your luggage at the front desk, and once your room is ready after cleaning, we will place it in your room for you.\n\nAfter check-out: Luggage storage is available until 1 hour before the front desk closes.\nMonday to Saturday: until 8:00 PM\nSunday: until 6:00 PM"
       }
     ]
   },
@@ -167,10 +167,11 @@
     "longStayCta": "Long Stay Inquiry",
     "shortStay": "Short stay — book via",
     "contact": "Contact",
-    "email": "hello@arustay.example",
+    "email": "arustay26@gmail.com",
     "instagram": "Instagram",
     "booking": "Booking.com",
-    "agoda": "Agoda"
+    "agoda": "Agoda",
+    "trip": "Trip.com"
   },
   "floating": {
     "cta": "Long Stay Inquiry"

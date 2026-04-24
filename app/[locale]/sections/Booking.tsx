@@ -5,6 +5,7 @@ import {
   LONG_STAY_FORM_URL,
   BOOKING_COM_URL,
   AGODA_URL,
+  TRIP_COM_URL,
   INSTAGRAM_URL,
   EMAIL,
   CREW,
@@ -75,6 +76,24 @@ export default function Booking() {
                       className="text-ink-mute transition-colors group-hover:text-sand-50"
                     />
                     <span>{t('agoda')}</span>
+                    <ArrowUpRight
+                      size={14}
+                      strokeWidth={1.6}
+                      className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                    />
+                  </a>
+                  <a
+                    href={TRIP_COM_URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group inline-flex items-center gap-2 pl-4 pr-5 py-2.5 rounded-full border border-sand-300 text-sm text-ink transition-all duration-300 hover:bg-ink hover:text-sand-50 hover:border-ink hover:-translate-y-0.5"
+                  >
+                    <BedDouble
+                      size={15}
+                      strokeWidth={1.6}
+                      className="text-ink-mute transition-colors group-hover:text-sand-50"
+                    />
+                    <span>{t('trip')}</span>
                     <ArrowUpRight
                       size={14}
                       strokeWidth={1.6}

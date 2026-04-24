@@ -1,12 +1,13 @@
 import { useTranslations } from 'next-intl';
 import { ExternalLink } from 'lucide-react';
 import FadeIn from '@/components/FadeIn';
-import { GOOGLE_MAPS_EMBED_SRC, BUSINESS } from '@/lib/constants';
+import {
+  GOOGLE_MAPS_EMBED_SRC,
+  GOOGLE_MAPS_URL,
+  NAVER_MAP_URL,
+} from '@/lib/constants';
 
 type Access = { place: string; time: string };
-
-const GOOGLE_MAPS_URL = `https://www.google.com/maps/search/?api=1&query=${BUSINESS.latitude},${BUSINESS.longitude}`;
-const NAVER_MAP_URL = `https://map.naver.com/p/search/${encodeURIComponent('왕십리역')}`;
 
 export default function Location() {
   const t = useTranslations('location');
