@@ -9,7 +9,7 @@ export default function Hero() {
     <section id="hero" className="relative">
       <div className="relative min-h-[100svh] flex items-end overflow-hidden bg-sand-300">
         <Image
-          src="/images/optimized/hero.avif"
+          src="/images/hero.jpg"
           alt=""
           fill
           priority

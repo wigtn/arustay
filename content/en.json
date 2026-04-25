@@ -51,13 +51,13 @@
         "desc": "A compact, comfortable room with a soft double bed and warm lighting.",
         "amenities": ["Free Wi-Fi", "Flat-screen TV", "Air Conditioning", "Private Bathroom", "Hair Dryer"],
         "images": [
-          "/images/optimized/double-1.avif",
-          "/images/optimized/double-2.avif",
-          "/images/optimized/double-3.avif",
-          "/images/optimized/double-4.avif",
-          "/images/optimized/double-5.avif",
-          "/images/optimized/double-6.avif",
-          "/images/optimized/double-7.avif"
+          "/images/double-1.jpg",
+          "/images/double-2.jpg",
+          "/images/double-3.jpg",
+          "/images/double-4.jpg",
+          "/images/double-5.jpg",
+          "/images/double-6.jpg",
+          "/images/double-7.jpg"
         ]
       },
       {
@@ -69,12 +69,12 @@
         "desc": "Two single beds for friends or family traveling together.",
         "amenities": ["Free Wi-Fi", "Flat-screen TV", "Air Conditioning", "Private Bathroom", "Hair Dryer"],
         "images": [
-          "/images/optimized/twin-1.avif",
-          "/images/optimized/twin-2.avif",
-          "/images/optimized/twin-3.avif",
-          "/images/optimized/twin-4.avif",
-          "/images/optimized/twin-5.avif",
-          "/images/optimized/twin-6.avif"
+          "/images/twin-1.jpg",
+          "/images/twin-2.jpg",
+          "/images/twin-3.jpg",
+          "/images/twin-4.jpg",
+          "/images/twin-5.jpg",
+          "/images/twin-6.jpg"
         ]
       }
     ]
@@ -179,6 +179,14 @@
   "footer": {
     "tagline": "ARU STAY · Seoul",
     "rights": "All rights reserved.",
-    "credit": "Crafted by"
+    "credit": "Crafted by",
+    "business": {
+      "heading": "Business Information",
+      "name": { "label": "Business Name", "value": "ARU STAY" },
+      "registration": { "label": "Business Registration Number", "value": "848-12-03120" },
+      "representative": { "label": "Representative", "value": "Seongmin Jang" },
+      "address": { "label": "Business Address", "value": "18, Wangsimni-ro 22-gil, Seongdong-gu, Seoul, South Korea" },
+      "phone": { "label": "Phone Number", "value": "+82-2-2297-4563" }
+    }
   }
 }

@@ -129,6 +129,17 @@ const KEYS_BY_SECTION: { section: string; label: string; keys: { key: string; la
     keys: [
       { key: 'footer.tagline', label: '태그라인' },
       { key: 'footer.rights', label: '저작권 문구' },
+      { key: 'footer.business.heading', label: '사업자 정보 헤더' },
+      { key: 'footer.business.name.label', label: '상호명 레이블' },
+      { key: 'footer.business.name.value', label: '상호명 값' },
+      { key: 'footer.business.registration.label', label: '사업자등록번호 레이블' },
+      { key: 'footer.business.registration.value', label: '사업자등록번호 값' },
+      { key: 'footer.business.representative.label', label: '대표자명 레이블' },
+      { key: 'footer.business.representative.value', label: '대표자명 값' },
+      { key: 'footer.business.address.label', label: '사업장주소 레이블' },
+      { key: 'footer.business.address.value', label: '사업장주소 값', type: 'textarea' },
+      { key: 'footer.business.phone.label', label: '전화번호 레이블' },
+      { key: 'footer.business.phone.value', label: '전화번호 값' },
     ],
   },
 ];

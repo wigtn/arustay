@@ -51,13 +51,13 @@
         "desc": "부드러운 더블 침대와 따뜻한 조명이 있는 아담하고 편안한 방.",
         "amenities": ["무료 Wi-Fi", "평면 TV", "에어컨", "개별 욕실", "헤어드라이어"],
         "images": [
-          "/images/optimized/double-1.avif",
-          "/images/optimized/double-2.avif",
-          "/images/optimized/double-3.avif",
-          "/images/optimized/double-4.avif",
-          "/images/optimized/double-5.avif",
-          "/images/optimized/double-6.avif",
-          "/images/optimized/double-7.avif"
+          "/images/double-1.jpg",
+          "/images/double-2.jpg",
+          "/images/double-3.jpg",
+          "/images/double-4.jpg",
+          "/images/double-5.jpg",
+          "/images/double-6.jpg",
+          "/images/double-7.jpg"
         ]
       },
       {
@@ -69,12 +69,12 @@
         "desc": "친구나 가족과 함께 머물기 좋은 싱글 침대 2개 구성.",
         "amenities": ["무료 Wi-Fi", "평면 TV", "에어컨", "개별 욕실", "헤어드라이어"],
         "images": [
-          "/images/optimized/twin-1.avif",
-          "/images/optimized/twin-2.avif",
-          "/images/optimized/twin-3.avif",
-          "/images/optimized/twin-4.avif",
-          "/images/optimized/twin-5.avif",
-          "/images/optimized/twin-6.avif"
+          "/images/twin-1.jpg",
+          "/images/twin-2.jpg",
+          "/images/twin-3.jpg",
+          "/images/twin-4.jpg",
+          "/images/twin-5.jpg",
+          "/images/twin-6.jpg"
         ]
       }
     ]
@@ -179,6 +179,14 @@
   "footer": {
     "tagline": "ARU STAY · Seoul",
     "rights": "All rights reserved.",
-    "credit": "제작"
+    "credit": "제작",
+    "business": {
+      "heading": "사업자 정보",
+      "name": { "label": "상호명", "value": "아루스테이" },
+      "registration": { "label": "사업자등록번호", "value": "848-12-03120" },
+      "representative": { "label": "대표자명", "value": "장성민" },
+      "address": { "label": "사업장주소지", "value": "서울특별시 성동구 왕십리로22길 18" },
+      "phone": { "label": "전화번호", "value": "+82-2-2297-4563" }
+    }
   }
 }

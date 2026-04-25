@@ -151,27 +151,45 @@ export default function Booking() {
           </FadeIn>
         </div>
 
-        <footer className="mt-24 pt-8 border-t border-sand-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs text-ink-mute">
-          <p>{footer('tagline')}</p>
-          <p className="sm:text-center">
-            {footer('credit')}{' '}
-            <a
-              href={CREW.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group inline-flex items-center gap-1 font-medium tracking-wider2 text-ink transition-colors hover:text-ink-soft"
-            >
-              {CREW.name}
-              <ArrowUpRight
-                size={12}
-                strokeWidth={1.8}
-                className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-              />
-            </a>
-          </p>
-          <p>
-            © {new Date().getFullYear()} ARU STAY. {footer('rights')}
-          </p>
+        <footer className="mt-24 pt-8 border-t border-sand-200 text-xs text-ink-mute">
+          <div className="mb-8">
+            <p className="text-[11px] uppercase tracking-wider2 text-ink-mute mb-3">
+              {footer('business.heading')}
+            </p>
+            <dl className="grid gap-x-8 gap-y-1.5 sm:grid-cols-2">
+              {(['name', 'registration', 'representative', 'address', 'phone'] as const).map(
+                (k) => (
+                  <div key={k} className="flex gap-2">
+                    <dt className="text-ink-mute">{footer(`business.${k}.label`)}</dt>
+                    <dd className="text-ink">{footer(`business.${k}.value`)}</dd>
+                  </div>
+                ),
+              )}
+            </dl>
+          </div>
+
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <p>{footer('tagline')}</p>
+            <p className="sm:text-center">
+              {footer('credit')}{' '}
+              <a
+                href={CREW.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex items-center gap-1 font-medium tracking-wider2 text-ink transition-colors hover:text-ink-soft"
+              >
+                {CREW.name}
+                <ArrowUpRight
+                  size={12}
+                  strokeWidth={1.8}
+                  className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                />
+              </a>
+            </p>
+            <p>
+              © {new Date().getFullYear()} ARU STAY. {footer('rights')}
+            </p>
+          </div>
         </footer>
       </div>
     </section>

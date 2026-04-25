@@ -51,13 +51,13 @@
         "desc": "柔软大床,温暖灯光,紧凑舒适。",
         "amenities": ["免费 Wi-Fi", "平板电视", "空调", "独立浴室", "吹风机"],
         "images": [
-          "/images/optimized/double-1.avif",
-          "/images/optimized/double-2.avif",
-          "/images/optimized/double-3.avif",
-          "/images/optimized/double-4.avif",
-          "/images/optimized/double-5.avif",
-          "/images/optimized/double-6.avif",
-          "/images/optimized/double-7.avif"
+          "/images/double-1.jpg",
+          "/images/double-2.jpg",
+          "/images/double-3.jpg",
+          "/images/double-4.jpg",
+          "/images/double-5.jpg",
+          "/images/double-6.jpg",
+          "/images/double-7.jpg"
         ]
       },
       {
@@ -69,12 +69,12 @@
         "desc": "两张单人床,适合朋友或家人同住。",
         "amenities": ["免费 Wi-Fi", "平板电视", "空调", "独立浴室", "吹风机"],
         "images": [
-          "/images/optimized/twin-1.avif",
-          "/images/optimized/twin-2.avif",
-          "/images/optimized/twin-3.avif",
-          "/images/optimized/twin-4.avif",
-          "/images/optimized/twin-5.avif",
-          "/images/optimized/twin-6.avif"
+          "/images/twin-1.jpg",
+          "/images/twin-2.jpg",
+          "/images/twin-3.jpg",
+          "/images/twin-4.jpg",
+          "/images/twin-5.jpg",
+          "/images/twin-6.jpg"
         ]
       }
     ]
@@ -179,6 +179,14 @@
   "footer": {
     "tagline": "ARU STAY · Seoul",
     "rights": "All rights reserved.",
-    "credit": "制作"
+    "credit": "制作",
+    "business": {
+      "heading": "商户信息",
+      "name": { "label": "商号", "value": "ARU STAY" },
+      "registration": { "label": "营业执照号码", "value": "848-12-03120" },
+      "representative": { "label": "代表人", "value": "张成旻" },
+      "address": { "label": "营业地址", "value": "韩国首尔特别市城东区往十里路22街18号" },
+      "phone": { "label": "电话号码", "value": "+82-2-2297-4563" }
+    }
   }
 }

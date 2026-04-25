@@ -9,7 +9,7 @@ export default function About() {
     <section id="about" className="relative">
       <div className="relative min-h-[92vh] flex flex-col justify-end overflow-hidden bg-sand-300">
         <Image
-          src="/images/optimized/about.avif"
+          src="/images/about.jpg"
           alt=""
           fill
           sizes="100vw"
