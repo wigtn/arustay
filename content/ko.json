@@ -180,6 +180,8 @@
     "tagline": "ARU STAY · Seoul",
     "rights": "All rights reserved.",
     "credit": "제작",
+    "privacy": "개인정보처리방침",
+    "terms": "이용약관",
     "business": {
       "heading": "사업자 정보",
       "name": { "label": "상호명", "value": "아루스테이" },

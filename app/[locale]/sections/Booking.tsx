@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 import { ArrowUpRight, Mail, Instagram, BedDouble } from 'lucide-react';
 import FadeIn from '@/components/FadeIn';
+import LegalLinks from '@/components/LegalLinks';
 import {
   LONG_STAY_FORM_URL,
   BOOKING_COM_URL,
@@ -156,38 +157,48 @@ export default function Booking() {
             <p className="text-[11px] uppercase tracking-wider2 text-ink-mute mb-3">
               {footer('business.heading')}
             </p>
-            <dl className="grid gap-x-8 gap-y-1.5 sm:grid-cols-2">
-              {(['name', 'registration', 'representative', 'address', 'phone'] as const).map(
-                (k) => (
+            <div className="grid gap-x-12 gap-y-1.5 sm:grid-cols-2">
+              <dl className="space-y-1.5">
+                {(['name', 'representative', 'phone'] as const).map((k) => (
                   <div key={k} className="flex gap-2">
                     <dt className="text-ink-mute">{footer(`business.${k}.label`)}</dt>
                     <dd className="text-ink">{footer(`business.${k}.value`)}</dd>
                   </div>
-                ),
-              )}
-            </dl>
+                ))}
+              </dl>
+              <dl className="space-y-1.5">
+                {(['registration', 'address'] as const).map((k) => (
+                  <div key={k} className="flex gap-2">
+                    <dt className="text-ink-mute">{footer(`business.${k}.label`)}</dt>
+                    <dd className="text-ink">{footer(`business.${k}.value`)}</dd>
+                  </div>
+                ))}
+                <LegalLinks />
+              </dl>
+            </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
             <p>{footer('tagline')}</p>
-            <p className="sm:text-center">
-              {footer('credit')}{' '}
-              <a
-                href={CREW.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group inline-flex items-center gap-1 font-medium tracking-wider2 text-ink transition-colors hover:text-ink-soft"
-              >
-                {CREW.name}
-                <ArrowUpRight
-                  size={12}
-                  strokeWidth={1.8}
-                  className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-                />
-              </a>
-            </p>
-            <p>
-              © {new Date().getFullYear()} ARU STAY. {footer('rights')}
+            <p className="flex flex-wrap items-center gap-x-3 gap-y-1 sm:justify-end">
+              <span>© {new Date().getFullYear()} ARU STAY. {footer('rights')}</span>
+              <span aria-hidden className="text-ink-mute">·</span>
+              <span className="inline-flex items-center gap-1">
+                {footer('credit')}{' '}
+                <a
+                  href={CREW.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group inline-flex items-center gap-1 font-medium tracking-wider2 text-ink transition-colors hover:text-ink-soft"
+                >
+                  {CREW.name}
+                  <ArrowUpRight
+                    size={12}
+                    strokeWidth={1.8}
+                    className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                  />
+                </a>
+              </span>
             </p>
           </div>
         </footer>
