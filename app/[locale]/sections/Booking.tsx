@@ -157,7 +157,7 @@ export default function Booking() {
             <p className="text-[11px] uppercase tracking-wider2 text-ink-mute mb-3">
               {footer('business.heading')}
             </p>
-            <div className="grid gap-x-12 gap-y-1.5 sm:grid-cols-2">
+            <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-y-3 gap-x-12">
               <dl className="space-y-1.5">
                 {(['name', 'representative', 'phone'] as const).map((k) => (
                   <div key={k} className="flex gap-2">
@@ -166,14 +166,16 @@ export default function Booking() {
                   </div>
                 ))}
               </dl>
-              <dl className="space-y-1.5">
+              <dl className="space-y-1.5 sm:text-right">
                 {(['registration', 'address'] as const).map((k) => (
-                  <div key={k} className="flex gap-2">
+                  <div key={k} className="flex gap-2 sm:justify-end">
                     <dt className="text-ink-mute">{footer(`business.${k}.label`)}</dt>
                     <dd className="text-ink">{footer(`business.${k}.value`)}</dd>
                   </div>
                 ))}
-                <LegalLinks />
+                <div className="sm:flex sm:justify-end">
+                  <LegalLinks />
+                </div>
               </dl>
             </div>
           </div>
