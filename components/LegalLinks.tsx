@@ -1,18 +1,14 @@
 'use client';
 
 import { useState } from 'react';
-import { useLocale, useTranslations } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import LegalModal from './LegalModal';
-import { LEGAL_LOCALES, PRIVACY, TERMS, type LegalLocale } from '@/lib/legal';
+import { PRIVACY, TERMS } from '@/lib/legal';
 
 type Open = null | 'privacy' | 'terms';
 
 export default function LegalLinks() {
   const t = useTranslations('footer');
-  const siteLocale = useLocale();
-  const initialLocale: LegalLocale = (LEGAL_LOCALES as readonly string[]).includes(siteLocale)
-    ? (siteLocale as LegalLocale)
-    : 'ko';
   const [open, setOpen] = useState<Open>(null);
 
   return (
@@ -41,13 +37,13 @@ export default function LegalLinks() {
         open={open === 'privacy'}
         onClose={() => setOpen(null)}
         docs={PRIVACY}
-        initialLocale={initialLocale}
+        initialLocale="ko"
       />
       <LegalModal
         open={open === 'terms'}
         onClose={() => setOpen(null)}
         docs={TERMS}
-        initialLocale={initialLocale}
+        initialLocale="ko"
       />
     </>
   );
