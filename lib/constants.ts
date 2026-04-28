@@ -39,19 +39,39 @@ export const CREW = {
 export const BUSINESS = {
   name: 'ARU STAY',
   legalName: 'ARU STAY',
-  streetAddress: 'Wangsimni-ro, Seongdong-gu',
+  alternateNames: [
+    '아루스테이',
+    'ARU STAY Seoul',
+    'ARU STAY 왕십리',
+    'ARU STAY Wangsimni',
+    'アルステイ',
+    'アルステイ ソウル',
+    '阿鲁住宿',
+    '阿鲁酒店',
+  ],
+  streetAddress: '18, Wangsimni-ro 22-gil, Seongdong-gu',
   addressLocality: 'Seoul',
   addressRegion: 'Seoul',
   postalCode: '04766',
   addressCountry: 'KR',
   latitude: 37.5635136,
   longitude: 127.0351235,
-  telephone: '+82-10-0000-0000',
+  telephone: '+82-2-2297-4563',
   email: EMAIL,
   priceRange: '₩₩',
   checkinTime: '15:00',
   checkoutTime: '11:00',
+  numberOfRooms: 13,
 } as const;
+
+export const OTA_URLS = {
+  booking: BOOKING_COM_URL,
+  agoda: AGODA_URL,
+  trip: TRIP_COM_URL,
+} as const;
+
+export const SEO_KEYWORDS_FALLBACK =
+  'ARU STAY, 아루스테이, アルステイ, 阿鲁住宿, Seoul guesthouse, Wangsimni accommodation, Korean guesthouse, ソウル ゲストハウス, 首尔民宿';
 
 export const LOCALE_LABELS: Record<string, string> = {
   en: 'EN',
