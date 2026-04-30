@@ -91,7 +91,17 @@
       "Thoughtful, personal support throughout your stay"
     ],
     "cta": "Request a Long Stay",
-    "note": "You'll be taken to a short Google Form (opens in a new tab)."
+    "note": "You'll be taken to a short Google Form (opens in a new tab).",
+    "process": {
+      "heading": "ARU STAY Long Stay Reservation Process",
+      "steps": [
+        "Submit Google Form",
+        "Availability check",
+        "Payment link sent",
+        "Guest payment",
+        "Reservation confirmed"
+      ]
+    }
   },
   "facilities": {
     "eyebrow": "Facilities",

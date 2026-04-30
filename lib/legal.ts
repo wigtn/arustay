@@ -428,7 +428,6 @@ const TERMS_KO = `# 이용약관
 - 이용자가 체크인 예정일 **7일 전까지** 예약을 취소하는 경우, 결제금액 전액을 환불합니다.
 - 이용자가 체크인 예정일 **6일 전부터 당일 사이**에 예약을 취소하는 경우, 환불은 제공되지 않습니다.
 - 이용자가 사전 연락 없이 숙소를 이용하지 않는 경우(노쇼), 환불은 제공되지 않습니다.
-- 다만, 이용자가 **결제 완료 후 1시간 이내**에 취소를 요청한 경우에는 전액 환불이 가능하며, 이는 **체크인 예정일이 7일 이상 남아 있는 예약에 한하여** 적용됩니다.
 - 환불은 원칙적으로 원결제수단을 통해 처리되며, 실제 환불 반영 시점은 결제 서비스 제공업체(PG사) 또는 카드사 사정에 따라 달라질 수 있습니다.
 - 회사와 이용자 사이에 별도로 서면 또는 이메일로 합의한 특별 조건이 있는 경우, 해당 조건이 우선 적용될 수 있습니다.
 
@@ -562,7 +561,6 @@ These Terms of Service govern the rights, obligations, and responsibilities betw
 - If a user cancels the reservation **7 days or more before the scheduled check-in date**, the full payment amount will be refunded.
 - If a user cancels the reservation **from 6 days before the scheduled check-in date up to the check-in date itself**, no refund will be provided.
 - If a user fails to check in without prior notice (no-show), no refund will be provided.
-- Notwithstanding the above, if a user requests cancellation **within 1 hour after payment is completed**, a full refund may be granted, provided that the scheduled check-in date is **more than 7 days away**.
 - Refunds shall, in principle, be made to the original payment method. The actual timing of the refund may vary depending on the payment service provider (PG) or card issuer.
 - If the Company and the user have separately agreed to special conditions in writing or by email, such special conditions may prevail.
 
@@ -698,7 +696,6 @@ const TERMS_JA = `# 利用規約
 - 利用者がチェックイン予定日の**7日前まで**に予約をキャンセルした場合、決済金額の全額を返金します。
 - 利用者がチェックイン予定日の**6日前から当日まで**の間に予約をキャンセルした場合、返金は行われません。
 - 利用者が事前連絡なく宿泊しなかった場合（ノーショー）、返金は行われません。
-- ただし、利用者が**決済完了後1時間以内**にキャンセルを申請した場合には、**チェックイン予定日まで7日以上残っている予約に限り**、全額返金されることがあります。
 - 返金は原則として元の決済手段を通じて行われます。実際の返金反映時期は、決済サービス提供会社（PG）またはカード会社の事情により異なる場合があります。
 - 当社と利用者の間で、書面またはメールにより特別条件が別途合意されている場合は、その条件が優先されることがあります。
 
@@ -834,7 +831,6 @@ const TERMS_ZH = `# 使用条款
 - 如用户在预计入住日期**7天前或更早**取消预订，本公司将全额退款。
 - 如用户在预计入住日期**前6天至入住当日**之间取消预订，本公司不予退款。
 - 如用户未事先通知且未入住（no-show），本公司不予退款。
-- 但是，如用户在**完成付款后1小时内**提出取消申请，且距离预计入住日期**仍有7天以上**，则可获得全额退款。
 - 退款原则上将退回至原付款方式。实际到账时间可能因支付服务提供商（PG）或发卡机构的处理流程而有所不同。
 - 如本公司与用户之间另有书面或电子邮件约定的特别条件，则该特别条件可优先适用。
 

@@ -91,7 +91,17 @@
       "贴心的专属支持,贯穿整个入住期间"
     ],
     "cta": "咨询长期入住",
-    "note": "将会在新窗口打开 Google 表单。"
+    "note": "将会在新窗口打开 Google 表单。",
+    "process": {
+      "heading": "ARU STAY 长期入住预订流程",
+      "steps": [
+        "提交 Google 表单",
+        "运营方确认可用性",
+        "发送付款链接",
+        "客人完成付款",
+        "预订确认"
+      ]
+    }
   },
   "facilities": {
     "eyebrow": "Facilities",

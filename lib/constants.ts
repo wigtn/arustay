@@ -10,8 +10,7 @@ export const SECTION_IDS = [
 
 export type SectionId = (typeof SECTION_IDS)[number];
 
-// Placeholder URLs (to be replaced with real values in production)
-export const LONG_STAY_FORM_URL = '#'; // Google Form URL (to be provided)
+export const LONG_STAY_FORM_URL = 'https://forms.gle/hJJSTbmMZfaGr3ZX7';
 export const BOOKING_COM_URL =
   'https://www.booking.com/hotel/kr/aru-stay-in-seoul.ko.html?aid=356980&label=gog235jc-10CAsofUIRYXJ1LXN0YXktaW4tc2VvdWxIF1gDaH2IAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AsyMqM8GwAIB0gIkNDgxNDczZjktOTEyZS00MjIxLWE1YWMtNjU0OWI3YzAwYjU42AIB4AIB';
 export const AGODA_URL =

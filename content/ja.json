@@ -91,7 +91,17 @@
       "ご滞在中ずっと、細やかな個別サポート"
     ],
     "cta": "長期滞在を問い合わせる",
-    "note": "Google フォームが別タブで開きます。"
+    "note": "Google フォームが別タブで開きます。",
+    "process": {
+      "heading": "ARU STAY 長期滞在 ご予約の流れ",
+      "steps": [
+        "Google フォーム送信",
+        "空室状況の確認",
+        "決済リンクの送付",
+        "お客様による決済",
+        "予約確定"
+      ]
+    }
   },
   "facilities": {
     "eyebrow": "Facilities",

@@ -91,7 +91,17 @@
       "머무시는 내내 세심하게 개별 응대"
     ],
     "cta": "장기 숙박 문의하기",
-    "note": "새 탭에서 Google 폼이 열립니다."
+    "note": "새 탭에서 Google 폼이 열립니다.",
+    "process": {
+      "heading": "ARU STAY 장기숙박 예약 절차",
+      "steps": [
+        "Google Forms 접수",
+        "운영자 가능 여부 확인",
+        "결제 링크 발송",
+        "고객 결제",
+        "예약 확정"
+      ]
+    }
   },
   "facilities": {
     "eyebrow": "Facilities",
