@@ -5,13 +5,13 @@
     "keywords": "ARU STAY, アルステイ, アルステイ ソウル, ソウル ゲストハウス, 王十里 宿, 王十里 ゲストハウス, ソウル 長期滞在, 韓国 ゲストハウス, ソウル ブティックホテル, ソウル 民泊, 城東区 ホテル"
   },
   "nav": {
-    "about": "About",
-    "rooms": "Rooms",
-    "longStay": "Long Stay",
-    "facilities": "Facilities",
-    "location": "Location",
-    "guestNotes": "Guest Notes",
-    "book": "Book"
+    "about": "紹介",
+    "rooms": "客室",
+    "longStay": "長期滞在",
+    "facilities": "施設",
+    "location": "アクセス",
+    "guestNotes": "ご案内",
+    "book": "ご予約"
   },
   "hero": {
     "eyebrow": "ARU STAY · SEOUL",
@@ -93,7 +93,7 @@
     "cta": "長期滞在を問い合わせる",
     "note": "Google フォームが別タブで開きます。",
     "process": {
-      "heading": "ARU STAY 長期滞在 ご予約の流れ",
+      "heading": "Long Stay Reservation Process",
       "steps": [
         "Google フォーム送信",
         "空室状況の確認",

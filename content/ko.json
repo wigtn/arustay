@@ -5,13 +5,13 @@
     "keywords": "아루스테이, ARU STAY, 서울 게스트하우스, 왕십리 숙소, 왕십리 게스트하우스, 서울 장기숙박, 성동구 숙소, 한국 게스트하우스, 서울 부티크 호텔, 아루스테이 서울"
   },
   "nav": {
-    "about": "About",
-    "rooms": "Rooms",
-    "longStay": "Long Stay",
-    "facilities": "Facilities",
-    "location": "Location",
-    "guestNotes": "Guest Notes",
-    "book": "Book"
+    "about": "소개",
+    "rooms": "객실",
+    "longStay": "장기숙박",
+    "facilities": "시설",
+    "location": "위치",
+    "guestNotes": "안내사항",
+    "book": "예약"
   },
   "hero": {
     "eyebrow": "ARU STAY · SEOUL",
@@ -93,7 +93,7 @@
     "cta": "장기 숙박 문의하기",
     "note": "새 탭에서 Google 폼이 열립니다.",
     "process": {
-      "heading": "ARU STAY 장기숙박 예약 절차",
+      "heading": "Long Stay Reservation Process",
       "steps": [
         "Google Forms 접수",
         "운영자 가능 여부 확인",
