@@ -100,7 +100,8 @@
         "Payment link sent",
         "Guest payment",
         "Reservation confirmed"
-      ]
+      ],
+      "disclaimer": "Submitting the form does not confirm your booking.\nWe will first check availability, and if your requested dates are available, we will send you a personal payment link by email.\nYour reservation is confirmed only after payment is completed."
     }
   },
   "facilities": {

@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 import { FileText, Search, Mail, CreditCard, CheckCircle2, ArrowRight } from 'lucide-react';
 import FadeIn from '@/components/FadeIn';
+import LegalLinks from '@/components/LegalLinks';
 import { LONG_STAY_FORM_URL } from '@/lib/constants';
 
 const STEP_ICONS = [FileText, Search, Mail, CreditCard, CheckCircle2];
@@ -82,6 +83,14 @@ export default function LongStay() {
                 );
               })}
             </ol>
+
+            <p className="mt-10 md:mt-12 text-center text-xs sm:text-sm text-sand-50/75 leading-relaxed whitespace-pre-line max-w-2xl mx-auto">
+              {t('process.disclaimer')}
+            </p>
+
+            <div className="mt-8 md:mt-10 flex justify-center">
+              <LegalLinks className="text-sand-50/80 hover:text-sand-50 justify-center" />
+            </div>
           </div>
         </FadeIn>
       </div>

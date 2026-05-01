@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
+import { Analytics } from '@vercel/analytics/next';
 import { Fraunces, Inter, Noto_Serif_KR, Noto_Sans_KR } from 'next/font/google';
 import { routing } from '@/i18n/routing';
 import {
@@ -260,6 +261,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
         </NextIntlClientProvider>
+        <Analytics />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(lodgingJsonLd) }}
