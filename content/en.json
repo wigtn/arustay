@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "ARU STAY (아루스테이) — Seoul Guesthouse near Wangsimni · Long Stay",
+    "title": "ARU STAY — Your cozy Seoul base",
     "description": "ARU STAY is a small, multilingual Korean guesthouse near Wangsimni Station, Seoul. Long stays welcome, English-speaking hosts, calm rooms — easy access to Seongsu, Dongdaemun, and Jongno.",
     "keywords": "ARU STAY, 아루스테이, Seoul guesthouse, Wangsimni accommodation, Seoul long stay, Korean guesthouse, Seoul boutique hotel, where to stay in Seoul, Seongdong-gu hotel, Seoul monthly stay"
   },
@@ -39,6 +39,13 @@
     "capacityLabel": "Capacity",
     "bedsLabel": "Bed Configuration",
     "amenitiesLabel": "Amenities",
+    "rateLabel": "Room Rate",
+    "priceFrom": "From {price} / night",
+    "rateRows": {
+      "weekday": "Mon–Thu",
+      "fri": "Fri",
+      "sat": "Sat"
+    },
     "slide": "Slide {current} of {total}",
     "prev": "Previous image",
     "next": "Next image",
@@ -51,6 +58,12 @@
         "beds": "1 Double Bed (1,300 × 2,000 mm)",
         "desc": "A compact, comfortable room with a soft double bed and warm lighting.",
         "amenities": ["Free Wi-Fi", "Flat-screen TV", "Air Conditioning", "Private Bathroom", "Hair Dryer"],
+        "priceFrom": "₩80,000",
+        "rates": {
+          "weekday": "₩80,000",
+          "fri": "₩150,000",
+          "sat": "₩170,000"
+        },
         "images": [
           "/images/double-1.jpg",
           "/images/double-2.jpg",
@@ -69,6 +82,12 @@
         "beds": "2 Single Beds (900 × 2,000 mm each)",
         "desc": "Two single beds for friends or family traveling together.",
         "amenities": ["Free Wi-Fi", "Flat-screen TV", "Air Conditioning", "Private Bathroom", "Hair Dryer"],
+        "priceFrom": "₩90,000",
+        "rates": {
+          "weekday": "₩90,000",
+          "fri": "₩160,000",
+          "sat": "₩180,000"
+        },
         "images": [
           "/images/twin-1.jpg",
           "/images/twin-2.jpg",

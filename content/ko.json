@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "아루스테이 ARU STAY — 서울 왕십리 게스트하우스 · 장기숙박",
+    "title": "ARU STAY — Your cozy Seoul base",
     "description": "아루스테이(ARU STAY)는 서울 성동구 왕십리역 도보권의 부티크 게스트하우스입니다. 장기숙박 환영, 외국어 응대, 청결하고 조용한 객실. 성수·동대문·종로 접근 편리.",
     "keywords": "아루스테이, ARU STAY, 서울 게스트하우스, 왕십리 숙소, 왕십리 게스트하우스, 서울 장기숙박, 성동구 숙소, 한국 게스트하우스, 서울 부티크 호텔, 아루스테이 서울"
   },
@@ -39,6 +39,13 @@
     "capacityLabel": "인원",
     "bedsLabel": "침대 구성",
     "amenitiesLabel": "편의사항",
+    "rateLabel": "객실 요금",
+    "priceFrom": "From {price} / 박",
+    "rateRows": {
+      "weekday": "월–목",
+      "fri": "금",
+      "sat": "토"
+    },
     "slide": "{current} / {total}",
     "prev": "이전 이미지",
     "next": "다음 이미지",
@@ -51,6 +58,12 @@
         "beds": "더블 침대 1개 (1,300 × 2,000 mm)",
         "desc": "부드러운 더블 침대와 따뜻한 조명이 있는 아담하고 편안한 방.",
         "amenities": ["무료 Wi-Fi", "평면 TV", "에어컨", "개별 욕실", "헤어드라이어"],
+        "priceFrom": "₩80,000",
+        "rates": {
+          "weekday": "₩80,000",
+          "fri": "₩150,000",
+          "sat": "₩170,000"
+        },
         "images": [
           "/images/double-1.jpg",
           "/images/double-2.jpg",
@@ -69,6 +82,12 @@
         "beds": "싱글 침대 2개 (각 900 × 2,000 mm)",
         "desc": "친구나 가족과 함께 머물기 좋은 싱글 침대 2개 구성.",
         "amenities": ["무료 Wi-Fi", "평면 TV", "에어컨", "개별 욕실", "헤어드라이어"],
+        "priceFrom": "₩90,000",
+        "rates": {
+          "weekday": "₩90,000",
+          "fri": "₩160,000",
+          "sat": "₩180,000"
+        },
         "images": [
           "/images/twin-1.jpg",
           "/images/twin-2.jpg",

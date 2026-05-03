@@ -15,6 +15,8 @@ type Room = {
   beds: string;
   desc: string;
   amenities: string[];
+  priceFrom: string;
+  rates: { weekday: string; fri: string; sat: string };
   images: string[];
 };
 
@@ -73,19 +75,24 @@ export default function Rooms() {
                   <p className="mt-2 text-sm text-ink-soft leading-relaxed">
                     {room.beds}
                   </p>
-                  <button
-                    type="button"
-                    onClick={() => setOpenIdx(i)}
-                    className="mt-6 group/btn inline-flex items-center gap-2 border border-ink px-5 py-2.5 text-[11px] uppercase tracking-wider2 text-ink transition-all duration-300 hover:bg-ink hover:text-sand-50"
-                  >
-                    <span>{t('viewDetails')}</span>
-                    <span
-                      aria-hidden
-                      className="inline-block transition-transform duration-300 group-hover/btn:translate-x-1"
+                  <div className="mt-6 flex flex-wrap items-center justify-between gap-y-3 gap-x-4">
+                    <button
+                      type="button"
+                      onClick={() => setOpenIdx(i)}
+                      className="group/btn inline-flex items-center gap-2 border border-ink px-5 py-2.5 text-[11px] uppercase tracking-wider2 text-ink transition-all duration-300 hover:bg-ink hover:text-sand-50"
                     >
-                      →
-                    </span>
-                  </button>
+                      <span>{t('viewDetails')}</span>
+                      <span
+                        aria-hidden
+                        className="inline-block transition-transform duration-300 group-hover/btn:translate-x-1"
+                      >
+                        →
+                      </span>
+                    </button>
+                    <p className="text-sm text-ink-soft">
+                      {t('priceFrom', { price: room.priceFrom })}
+                    </p>
+                  </div>
                 </div>
               </div>
             </FadeIn>
@@ -182,6 +189,26 @@ export default function Rooms() {
                         </li>
                       ))}
                     </ul>
+                  </div>
+
+                  <div className="mt-6 pt-6 border-t border-sand-200">
+                    <p className="text-xs uppercase tracking-wider text-ink-mute">
+                      {t('rateLabel')}
+                    </p>
+                    <dl className="mt-3 grid grid-cols-[auto_1fr] gap-x-6 gap-y-1.5 text-sm">
+                      <dt className="text-ink-mute">{t('rateRows.weekday')}</dt>
+                      <dd className="text-ink font-medium tabular-nums">
+                        {active.rates.weekday}
+                      </dd>
+                      <dt className="text-ink-mute">{t('rateRows.fri')}</dt>
+                      <dd className="text-ink font-medium tabular-nums">
+                        {active.rates.fri}
+                      </dd>
+                      <dt className="text-ink-mute">{t('rateRows.sat')}</dt>
+                      <dd className="text-ink font-medium tabular-nums">
+                        {active.rates.sat}
+                      </dd>
+                    </dl>
                   </div>
                 </div>
               </div>

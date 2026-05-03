@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "ARU STAY（アルステイ）— ソウル 王十里のゲストハウス・長期滞在",
+    "title": "ARU STAY — Your cozy Seoul base",
     "description": "ARU STAY（アルステイ）は、ソウル城東区・王十里駅徒歩圏の小さな多言語ゲストハウスです。長期滞在歓迎、日本語対応、清潔で静かな客室。聖水・東大門・鍾路へのアクセスも便利。",
     "keywords": "ARU STAY, アルステイ, アルステイ ソウル, ソウル ゲストハウス, 王十里 宿, 王十里 ゲストハウス, ソウル 長期滞在, 韓国 ゲストハウス, ソウル ブティックホテル, ソウル 民泊, 城東区 ホテル"
   },
@@ -39,6 +39,13 @@
     "capacityLabel": "定員",
     "bedsLabel": "ベッド構成",
     "amenitiesLabel": "設備",
+    "rateLabel": "客室料金",
+    "priceFrom": "From {price} / 泊",
+    "rateRows": {
+      "weekday": "月–木",
+      "fri": "金",
+      "sat": "土"
+    },
     "slide": "{current} / {total}",
     "prev": "前の画像",
     "next": "次の画像",
@@ -51,6 +58,12 @@
         "beds": "ダブルベッド 1台 (1,300 × 2,000 mm)",
         "desc": "柔らかなダブルベッドと温かい照明の、コンパクトで心地よいお部屋。",
         "amenities": ["無料 Wi-Fi", "薄型テレビ", "エアコン", "専用バスルーム", "ヘアドライヤー"],
+        "priceFrom": "₩80,000",
+        "rates": {
+          "weekday": "₩80,000",
+          "fri": "₩150,000",
+          "sat": "₩170,000"
+        },
         "images": [
           "/images/double-1.jpg",
           "/images/double-2.jpg",
@@ -69,6 +82,12 @@
         "beds": "シングルベッド 2台 (各 900 × 2,000 mm)",
         "desc": "ご友人やご家族とご一緒にお使いいただけるシングルベッド 2台。",
         "amenities": ["無料 Wi-Fi", "薄型テレビ", "エアコン", "専用バスルーム", "ヘアドライヤー"],
+        "priceFrom": "₩90,000",
+        "rates": {
+          "weekday": "₩90,000",
+          "fri": "₩160,000",
+          "sat": "₩180,000"
+        },
         "images": [
           "/images/twin-1.jpg",
           "/images/twin-2.jpg",

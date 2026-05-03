@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "ARU STAY（阿鲁住宿）— 首尔往十里民宿 · 长期入住",
+    "title": "ARU STAY — Your cozy Seoul base",
     "description": "ARU STAY（阿鲁住宿）位于首尔城东区往十里站步行可达的小型多语言民宿。欢迎长期入住，提供中文沟通，干净安静的客房。前往圣水、东大门、钟路均十分便利。",
     "keywords": "ARU STAY, 阿鲁住宿, 阿鲁酒店, 首尔民宿, 首尔住宿, 首尔旅馆, 往十里民宿, 往十里住宿, 首尔长期住宿, 韩国民宿, 韩国旅馆, 城东区酒店, 首尔精品酒店"
   },
@@ -39,6 +39,13 @@
     "capacityLabel": "入住人数",
     "bedsLabel": "床铺配置",
     "amenitiesLabel": "设施",
+    "rateLabel": "客房价格",
+    "priceFrom": "From {price} / 晚",
+    "rateRows": {
+      "weekday": "周一–周四",
+      "fri": "周五",
+      "sat": "周六"
+    },
     "slide": "{current} / {total}",
     "prev": "上一张",
     "next": "下一张",
@@ -51,6 +58,12 @@
         "beds": "双人床 1 张 (1,300 × 2,000 mm)",
         "desc": "柔软大床,温暖灯光,紧凑舒适。",
         "amenities": ["免费 Wi-Fi", "平板电视", "空调", "独立浴室", "吹风机"],
+        "priceFrom": "₩80,000",
+        "rates": {
+          "weekday": "₩80,000",
+          "fri": "₩150,000",
+          "sat": "₩170,000"
+        },
         "images": [
           "/images/double-1.jpg",
           "/images/double-2.jpg",
@@ -69,6 +82,12 @@
         "beds": "单人床 2 张 (每张 900 × 2,000 mm)",
         "desc": "两张单人床,适合朋友或家人同住。",
         "amenities": ["免费 Wi-Fi", "平板电视", "空调", "独立浴室", "吹风机"],
+        "priceFrom": "₩90,000",
+        "rates": {
+          "weekday": "₩90,000",
+          "fri": "₩160,000",
+          "sat": "₩180,000"
+        },
         "images": [
           "/images/twin-1.jpg",
           "/images/twin-2.jpg",
