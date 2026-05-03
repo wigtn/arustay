@@ -61,13 +61,20 @@ export async function generateMetadata({
   routing.locales.forEach((l) => {
     languages[l] = `${SITE_URL}${localePath(l)}`;
   });
-  languages['x-default'] = `${SITE_URL}/`;
+  languages['x-default'] = `${SITE_URL}${localePath(routing.defaultLocale)}`;
 
   let keywords: string;
   try {
     keywords = t('keywords');
   } catch {
     keywords = SEO_KEYWORDS_FALLBACK;
+  }
+
+  let ogImageAlt: string;
+  try {
+    ogImageAlt = t('ogImageAlt');
+  } catch {
+    ogImageAlt = `${BUSINESS.name} — small English-friendly Seoul guesthouse near Wangsimni Station`;
   }
 
   return {
@@ -91,7 +98,14 @@ export async function generateMetadata({
       title: t('title'),
       description: t('description'),
       locale,
-      images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: BUSINESS.name }],
+      images: [
+        {
+          url: OG_IMAGE,
+          width: 1200,
+          height: 630,
+          alt: ogImageAlt,
+        },
+      ],
     },
     twitter: {
       card: 'summary_large_image',
