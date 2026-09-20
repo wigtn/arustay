@@ -1,0 +1,72 @@
+{
+  "formula": {
+    "x": "0.99u + 0.03u^2 - 0.02u^3",
+    "y": "3u^2 - 2u^3"
+  },
+  "easing_peak_velocity_ratio": 1.492537313432836,
+  "active_10_to_90_fraction": 0.6103157907949984,
+  "text_10_to_90_seconds": 0.9765052652719975,
+  "image_10_to_90_seconds": 1.3426947397489966,
+  "text_average_px_per_second": 13.75,
+  "text_peak_px_per_second": 20.522388059701495,
+  "image_container_edge_travel_px": {
+    "1440": 32.4,
+    "390": 8.775
+  },
+  "mobile_contrast": [
+    {
+      "name": "hero_body",
+      "foreground": [
+        234,
+        223,
+        204
+      ],
+      "background": [
+        79,
+        55,
+        47
+      ],
+      "start_contrast": 3.709875244984293,
+      "end_contrast": 8.294628034565523,
+      "minimum_alpha_for_4_5": 0.6467964789638643,
+      "seconds_below_4_5": 0.477513589707458
+    },
+    {
+      "name": "hero_link",
+      "foreground": [
+        242,
+        236,
+        227
+      ],
+      "background": [
+        79,
+        55,
+        47
+      ],
+      "start_contrast": 4.038057628191049,
+      "end_contrast": 9.314098479282238,
+      "minimum_alpha_for_4_5": 0.6011276411187512,
+      "seconds_below_4_5": 0.3342015652363848
+    }
+  ],
+  "font_preloads": [
+    {
+      "name": "aru_display_latin_medium.p.0_tbb1m0ucy.4.woff2",
+      "bytes": 23324
+    },
+    {
+      "name": "aru_display_latin_bold.p.0rzlf2p4~m225.woff2",
+      "bytes": 23664
+    },
+    {
+      "name": "83afe278b6a6bb3c-s.p.0q-301v4kxxnr.woff2",
+      "bytes": 48432
+    }
+  ],
+  "font_preloads_total_bytes": 95420,
+  "hero_original_bytes": 586775,
+  "hero_avif_bytes": 194350,
+  "mobile_page_screens_844": 10.664691943127963,
+  "desktop_page_screens_900": 6.746666666666667,
+  "hero_asset_reduction_percent": 66.87827531847812
+}

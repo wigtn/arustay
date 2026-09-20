@@ -1,0 +1,41 @@
+{
+  "method": "Actual JSX event handlers transpiled and invoked with synthetic touch data; not a real-device browser test",
+  "results": [
+    {
+      "name": "small tap",
+      "passed": true
+    },
+    {
+      "name": "mostly vertical scroll",
+      "passed": true
+    },
+    {
+      "name": "short drag",
+      "passed": true
+    },
+    {
+      "name": "left swipe",
+      "passed": true
+    },
+    {
+      "name": "right swipe",
+      "passed": true
+    },
+    {
+      "name": "diagonal scroll",
+      "passed": true
+    },
+    {
+      "name": "cancelled gesture",
+      "passed": true
+    },
+    {
+      "name": "multi-touch pinch",
+      "passed": true
+    },
+    {
+      "name": "keyboard after swipe",
+      "passed": true
+    }
+  ]
+}

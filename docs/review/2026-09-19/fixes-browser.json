@@ -1,0 +1,186 @@
+{
+  "aboutDesktop": {
+    "fonts": [
+      "/_next/static/media/aru_display_latin_bold.p.0rzlf2p4~m225.woff2",
+      "/_next/static/media/aru_display_latin_medium.p.0_tbb1m0ucy.4.woff2"
+    ],
+    "image": [
+      {
+        "complete": true,
+        "currentSrc": "http://localhost:3101/_next/image?url=%2Fimages%2Foptimized%2Fabout.avif&w=640&q=75",
+        "loading": "eager",
+        "naturalWidth": 420,
+        "priority": "low"
+      }
+    ]
+  },
+  "heroSamples": [
+    {
+      "ms": 0,
+      "background": "rgb(79, 55, 47)",
+      "copyAnimation": "none",
+      "copyOpacity": "1",
+      "copyTransform": "none",
+      "descriptionColor": "rgb(234, 223, 204)",
+      "imageLoaded": "true",
+      "imageTransform": "matrix(1.04493, 0, 0, 1.04493, 0, 0)",
+      "overflow": false
+    },
+    {
+      "ms": 502,
+      "background": "rgb(79, 55, 47)",
+      "copyAnimation": "none",
+      "copyOpacity": "1",
+      "copyTransform": "none",
+      "descriptionColor": "rgb(234, 223, 204)",
+      "imageLoaded": "true",
+      "imageTransform": "matrix(1.04007, 0, 0, 1.04007, 0, 0)",
+      "overflow": false
+    },
+    {
+      "ms": 1002,
+      "background": "rgb(79, 55, 47)",
+      "copyAnimation": "none",
+      "copyOpacity": "1",
+      "copyTransform": "none",
+      "descriptionColor": "rgb(234, 223, 204)",
+      "imageLoaded": "true",
+      "imageTransform": "matrix(1.02704, 0, 0, 1.02704, 0, 0)",
+      "overflow": false
+    },
+    {
+      "ms": 1802,
+      "background": "rgb(79, 55, 47)",
+      "copyAnimation": "none",
+      "copyOpacity": "1",
+      "copyTransform": "none",
+      "descriptionColor": "rgb(234, 223, 204)",
+      "imageLoaded": "true",
+      "imageTransform": "matrix(1.00492, 0, 0, 1.00492, 0, 0)",
+      "overflow": false
+    },
+    {
+      "ms": 2501,
+      "background": "rgb(79, 55, 47)",
+      "copyAnimation": "none",
+      "copyOpacity": "1",
+      "copyTransform": "none",
+      "descriptionColor": "rgb(234, 223, 204)",
+      "imageLoaded": "true",
+      "imageTransform": "none",
+      "overflow": false
+    }
+  ],
+  "responsive": [
+    {
+      "lang": "en",
+      "width": 320,
+      "captionInReveal": false,
+      "captionOpacity": "1",
+      "heroAnimation": "none",
+      "heroOpacity": "1",
+      "overflow": false,
+      "photo": true,
+      "photoWidth": 280
+    },
+    {
+      "lang": "ko",
+      "width": 320,
+      "captionInReveal": false,
+      "captionOpacity": "1",
+      "heroAnimation": "none",
+      "heroOpacity": "1",
+      "overflow": false,
+      "photo": true,
+      "photoWidth": 280
+    },
+    {
+      "lang": "ja",
+      "width": 320,
+      "captionInReveal": false,
+      "captionOpacity": "1",
+      "heroAnimation": "none",
+      "heroOpacity": "1",
+      "overflow": false,
+      "photo": true,
+      "photoWidth": 280
+    },
+    {
+      "lang": "zh",
+      "width": 320,
+      "captionInReveal": false,
+      "captionOpacity": "1",
+      "heroAnimation": "none",
+      "heroOpacity": "1",
+      "overflow": false,
+      "photo": true,
+      "photoWidth": 280
+    },
+    {
+      "lang": "en",
+      "width": 1280,
+      "captionInReveal": false,
+      "captionOpacity": "1",
+      "heroAnimation": "none",
+      "heroOpacity": "1",
+      "overflow": false,
+      "photo": true,
+      "photoWidth": 420
+    },
+    {
+      "lang": "ko",
+      "width": 1280,
+      "captionInReveal": false,
+      "captionOpacity": "1",
+      "heroAnimation": "none",
+      "heroOpacity": "1",
+      "overflow": false,
+      "photo": true,
+      "photoWidth": 420
+    },
+    {
+      "lang": "ja",
+      "width": 1280,
+      "captionInReveal": false,
+      "captionOpacity": "1",
+      "heroAnimation": "none",
+      "heroOpacity": "1",
+      "overflow": false,
+      "photo": true,
+      "photoWidth": 420
+    },
+    {
+      "lang": "zh",
+      "width": 1280,
+      "captionInReveal": false,
+      "captionOpacity": "1",
+      "heroAnimation": "none",
+      "heroOpacity": "1",
+      "overflow": false,
+      "photo": true,
+      "photoWidth": 420
+    }
+  ],
+  "galleryNext": "    - button \"Double Room — 2\" [pressed]",
+  "galleryOpen": {
+    "focus": "Close",
+    "open": 1
+  },
+  "galleryClosed": {
+    "focus": "Enlarge photo",
+    "open": 0
+  },
+  "aboutMobile": {
+    "captionInReveal": false,
+    "photo": [
+      {
+        "bottom": 469.0078125,
+        "complete": true,
+        "naturalWidth": 280,
+        "top": 168.0078125
+      }
+    ],
+    "scrollY": 2397.5
+  },
+  "console": []
+}

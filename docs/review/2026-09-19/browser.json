@@ -1,0 +1,452 @@
+{
+  "responsive": [
+    {
+      "headerOverlaps": [],
+      "headingOverflow": [],
+      "lang": "en",
+      "navGap": null,
+      "overflow": false,
+      "pageHeight": 9335,
+      "width": 320
+    },
+    {
+      "headerOverlaps": [],
+      "headingOverflow": [],
+      "lang": "en",
+      "navGap": null,
+      "overflow": false,
+      "pageHeight": 9001,
+      "width": 390
+    },
+    {
+      "headerOverlaps": [],
+      "headingOverflow": [],
+      "lang": "en",
+      "navGap": null,
+      "overflow": false,
+      "pageHeight": 6251,
+      "width": 768
+    },
+    {
+      "headerOverlaps": [],
+      "headingOverflow": [],
+      "lang": "en",
+      "navGap": null,
+      "overflow": false,
+      "pageHeight": 5632,
+      "width": 1024
+    },
+    {
+      "headerOverlaps": [],
+      "headingOverflow": [],
+      "lang": "en",
+      "navGap": 24,
+      "overflow": false,
+      "pageHeight": 5940,
+      "width": 1280
+    },
+    {
+      "headerOverlaps": [],
+      "headingOverflow": [],
+      "lang": "en",
+      "navGap": 24,
+      "overflow": false,
+      "pageHeight": 6072,
+      "width": 1440
+    },
+    {
+      "headerOverlaps": [],
+      "headingOverflow": [],
+      "lang": "ko",
+      "navGap": null,
+      "overflow": false,
+      "pageHeight": 8753,
+      "width": 320
+    },
+    {
+      "headerOverlaps": [],
+      "headingOverflow": [],
+      "lang": "ko",
+      "navGap": null,
+      "overflow": false,
+      "pageHeight": 8610,
+      "width": 390
+    },
+    {
+      "headerOverlaps": [],
+      "headingOverflow": [],
+      "lang": "ko",
+      "navGap": null,
+      "overflow": false,
+      "pageHeight": 6050,
+      "width": 768
+    },
+    {
+      "headerOverlaps": [],
+      "headingOverflow": [],
+      "lang": "ko",
+      "navGap": null,
+      "overflow": false,
+      "pageHeight": 5602,
+      "width": 1024
+    },
+    {
+      "headerOverlaps": [],
+      "headingOverflow": [],
+      "lang": "ko",
+      "navGap": 24,
+      "overflow": false,
+      "pageHeight": 5895,
+      "width": 1280
+    },
+    {
+      "headerOverlaps": [],
+      "headingOverflow": [],
+      "lang": "ko",
+      "navGap": 24,
+      "overflow": false,
+      "pageHeight": 6027,
+      "width": 1440
+    },
+    {
+      "headerOverlaps": [],
+      "headingOverflow": [],
+      "lang": "ja",
+      "navGap": null,
+      "overflow": false,
+      "pageHeight": 8643,
+      "width": 320
+    },
+    {
+      "headerOverlaps": [],
+      "headingOverflow": [],
+      "lang": "ja",
+      "navGap": null,
+      "overflow": false,
+      "pageHeight": 8650,
+      "width": 390
+    },
+    {
+      "headerOverlaps": [],
+      "headingOverflow": [],
+      "lang": "ja",
+      "navGap": null,
+      "overflow": false,
+      "pageHeight": 6074,
+      "width": 768
+    },
+    {
+      "headerOverlaps": [],
+      "headingOverflow": [],
+      "lang": "ja",
+      "navGap": null,
+      "overflow": false,
+      "pageHeight": 5602,
+      "width": 1024
+    },
+    {
+      "headerOverlaps": [],
+      "headingOverflow": [],
+      "lang": "ja",
+      "navGap": 24,
+      "overflow": false,
+      "pageHeight": 5940,
+      "width": 1280
+    },
+    {
+      "headerOverlaps": [],
+      "headingOverflow": [],
+      "lang": "ja",
+      "navGap": 24,
+      "overflow": false,
+      "pageHeight": 6072,
+      "width": 1440
+    },
+    {
+      "headerOverlaps": [],
+      "headingOverflow": [],
+      "lang": "zh",
+      "navGap": null,
+      "overflow": false,
+      "pageHeight": 8266,
+      "width": 320
+    },
+    {
+      "headerOverlaps": [],
+      "headingOverflow": [],
+      "lang": "zh",
+      "navGap": null,
+      "overflow": false,
+      "pageHeight": 8427,
+      "width": 390
+    },
+    {
+      "headerOverlaps": [],
+      "headingOverflow": [],
+      "lang": "zh",
+      "navGap": null,
+      "overflow": false,
+      "pageHeight": 5963,
+      "width": 768
+    },
+    {
+      "headerOverlaps": [],
+      "headingOverflow": [],
+      "lang": "zh",
+      "navGap": null,
+      "overflow": false,
+      "pageHeight": 5556,
+      "width": 1024
+    },
+    {
+      "headerOverlaps": [],
+      "headingOverflow": [],
+      "lang": "zh",
+      "navGap": 24,
+      "overflow": false,
+      "pageHeight": 5869,
+      "width": 1280
+    },
+    {
+      "headerOverlaps": [],
+      "headingOverflow": [],
+      "lang": "zh",
+      "navGap": 24,
+      "overflow": false,
+      "pageHeight": 6001,
+      "width": 1440
+    }
+  ],
+  "localeRoutes": [
+    {
+      "h1": "ダブルルーム",
+      "lang": "ja",
+      "path": "/ja/locations/wangsimni/rooms/double"
+    },
+    {
+      "h1": "双人房",
+      "lang": "zh",
+      "path": "/zh/locations/wangsimni/rooms/double"
+    },
+    {
+      "h1": "더블룸",
+      "lang": "ko",
+      "path": "/ko/locations/wangsimni/rooms/double"
+    },
+    {
+      "h1": "Double Room",
+      "lang": "en",
+      "path": "/locations/wangsimni/rooms/double"
+    }
+  ],
+  "gallery": {
+    "next": "    - button \"Double Room — 2\" [pressed]",
+    "enlarge": {
+      "dialog": true,
+      "focus": "Close"
+    },
+    "restored": "Enlarge photo"
+  },
+  "booking": {
+    "direct": {
+      "focus": "Close",
+      "mail": "mailto:arustay26@gmail.com",
+      "title": "Reservations coming soon"
+    },
+    "trapBackward": "mailto:arustay26@gmail.com",
+    "trapForward": "Close",
+    "closed": {
+      "focus": "Book Wangsimni",
+      "open": 0
+    },
+    "choose": {
+      "focus": "Close",
+      "mailto": "mailto:arustay26@gmail.com",
+      "title": "Reservations coming soon"
+    }
+  },
+  "mobile": {
+    "fixed": {
+      "height": 70,
+      "top": 774
+    },
+    "sections": [
+      {
+        "height": 614,
+        "id": "hero",
+        "top": 80
+      },
+      {
+        "height": 290,
+        "id": "booking-benefit",
+        "top": 670
+      },
+      {
+        "height": 1409,
+        "id": "locations",
+        "top": 960
+      },
+      {
+        "height": 857,
+        "id": "about",
+        "top": 2369
+      },
+      {
+        "height": 2158,
+        "id": "rooms",
+        "top": 3225
+      },
+      {
+        "height": 1070,
+        "id": "facilities",
+        "top": 5384
+      },
+      {
+        "height": 695,
+        "id": "guest-notes",
+        "top": 6453
+      },
+      {
+        "height": 660,
+        "id": "faq",
+        "top": 7148
+      },
+      {
+        "height": 401,
+        "id": "final-booking",
+        "top": 7808
+      },
+      {
+        "height": 712,
+        "id": "contact",
+        "top": 8209
+      }
+    ],
+    "viewport": [
+      390,
+      844
+    ]
+  },
+  "publicFonts": {
+    "body": "-apple-system, \"system-ui\", \"Segoe UI\", \"Apple SD Gothic Neo\", \"Hiragino Kaku Gothic ProN\", \"Microsoft YaHei\", sans-serif",
+    "preloads": [
+      "/_next/static/media/83afe278b6a6bb3c-s.p.0q-301v4kxxnr.woff2",
+      "/_next/static/media/aru_display_latin_bold.p.0rzlf2p4~m225.woff2",
+      "/_next/static/media/aru_display_latin_medium.p.0_tbb1m0ucy.4.woff2"
+    ],
+    "visibleFamilies": [
+      "-apple-system, \"system-ui\", \"Segoe UI\", \"Apple SD Gothic Neo\", \"Hiragino Kaku Gothic ProN\", \"Microsoft YaHei\", sans-serif",
+      "displayLatin, displayKorean, \"Hiragino Kaku Gothic ProN\", \"Microsoft YaHei\", sans-serif"
+    ]
+  },
+  "footer": {
+    "documentHeight": 9001,
+    "fixedTop": 774,
+    "links": [
+      {
+        "bottom": 152.015625,
+        "text": "ARU STAY"
+      },
+      {
+        "bottom": 296.015625,
+        "text": "Wangsimni"
+      },
+      {
+        "bottom": 329.015625,
+        "text": "Dongdaemun"
+      },
+      {
+        "bottom": 426.015625,
+        "text": "arustay26@gmail.com"
+      },
+      {
+        "bottom": 459.015625,
+        "text": "Instagram"
+      },
+      {
+        "bottom": 564.015625,
+        "text": "Stay information & policies"
+      },
+      {
+        "bottom": 564.015625,
+        "text": "Privacy Policy"
+      },
+      {
+        "bottom": 596.015625,
+        "text": "Terms of Service"
+      },
+      {
+        "bottom": 700.015625,
+        "text": "Crafted by WIGTN ↗"
+      }
+    ],
+    "scrollY": 8157,
+    "viewport": 844
+  },
+  "imageLoading": {
+    "image": [
+      {
+        "alt": "The two ARU STAY hosts at the entrance",
+        "complete": false,
+        "currentSrc": "",
+        "naturalWidth": 0
+      }
+    ],
+    "reveal": [
+      {
+        "opacity": "1",
+        "state": "in"
+      }
+    ],
+    "afterAnchor": {
+      "image": [
+        {
+          "complete": false,
+          "currentSrc": "",
+          "html": "<img alt=\"The two ARU STAY hosts at the entrance\" loading=\"lazy\" decoding=\"async\" data-nimg=\"fill\" class=\"object-cover\" style=\"position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent\" sizes=\"(min-width: 768px) 420px, 90vw\" srcset=\"/_next/image?url=%2Fimages%2Foptimized%2Fabout.avif&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fimages%2Foptimized%2Fabout.avif&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fimages%2Foptimized%2Fabout.avif&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fimages%2Foptimized%2Fabout.avif&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fimages%2Foptimized%2Fabout.avif&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fimages%2Foptimized%2Fabout.avif&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fimages%2Foptimized%2Fabout.avif&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fimages%2Foptimized%2Fabout.avif&amp;w=3840&amp;q=75 3840w\" src=\"/_next/image?url=%2Fimages%2Foptimized%2Fabout.avif&amp;w=3840&amp;q=75\">",
+          "naturalWidth": 0,
+          "rect": {
+            "bottom": 663.890625,
+            "height": 451.5,
+            "left": 182.5,
+            "right": 602.5,
+            "top": 212.390625,
+            "width": 420,
+            "x": 182.5,
+            "y": 212.390625
+          }
+        }
+      ]
+    },
+    "afterReload": [
+      {
+        "complete": false,
+        "currentSrc": "",
+        "naturalWidth": 0
+      }
+    ]
+  },
+  "faq": [
+    {
+      "open": false,
+      "summary": "What is the official booking benefit?"
+    },
+    {
+      "open": true,
+      "summary": "What time are check-in and check-out?"
+    },
+    {
+      "open": false,
+      "summary": "Can I check in late at night?"
+    },
+    {
+      "open": false,
+      "summary": "Can I leave my luggage?"
+    },
+    {
+      "open": false,
+      "summary": "How do I choose a location?"
+    }
+  ],
+  "console": []
+}

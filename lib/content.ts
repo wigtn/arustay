@@ -1,4 +1,5 @@
 import { unstable_cache } from 'next/cache';
+import { createHash } from 'node:crypto';
 import { createSupabaseReadOnlyClient } from '@/lib/supabase/server';
 import type { Locale } from '@/lib/supabase/types';
 
@@ -203,9 +204,13 @@ export async function getMessagesForLocale(locale: Locale): Promise<Messages> {
   if (process.env.NODE_ENV !== 'production') {
     return fetchMessages(locale);
   }
+  // JSON edits must also invalidate the persistent production content cache.
+  const fallbackVersion = createHash('sha256')
+    .update(JSON.stringify(FALLBACK[locale]))
+    .digest('hex');
   const cached = unstable_cache(
     () => fetchMessages(locale),
-    ['site-content', locale],
+    ['site-content', locale, fallbackVersion],
     { tags: [SITE_CONTENT_TAG] },
   );
   return cached();

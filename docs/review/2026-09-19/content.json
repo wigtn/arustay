@@ -1,0 +1,26 @@
+{
+  "stays": 2,
+  "bookingReady": 0,
+  "rooms": 6,
+  "realRoomPhotos": 2,
+  "draftRooms": 4,
+  "copyKeys": 111,
+  "locales": {
+    "en": {
+      "missing": [],
+      "extra": []
+    },
+    "ko": {
+      "missing": [],
+      "extra": []
+    },
+    "ja": {
+      "missing": [],
+      "extra": []
+    },
+    "zh": {
+      "missing": [],
+      "extra": []
+    }
+  }
+}

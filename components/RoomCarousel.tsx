@@ -71,7 +71,9 @@ export default function RoomCarousel({ images, alt, labels, className = '' }: Pr
   );
 
   const indexRef = useRef(index);
-  indexRef.current = index;
+  useEffect(() => {
+    indexRef.current = index;
+  }, [index]);
 
   useEffect(() => {
     const el = containerRef.current;

@@ -1,6 +1,7 @@
 'use client';
 
-import { Fragment, useEffect, useMemo, useState, type ReactNode } from 'react';
+import { Fragment, useEffect, useMemo, useState, useSyncExternalStore, type ReactNode } from 'react';
+import Link from 'next/link';
 import { createPortal } from 'react-dom';
 import { X, ChevronDown } from 'lucide-react';
 import {
@@ -18,32 +19,31 @@ type Props = {
 };
 
 const LOGO_SRC = '/images/' + encodeURIComponent('아루스테이 로고-3.png');
+const subscribeToClient = () => () => {};
+const clientSnapshot = () => true;
+const serverSnapshot = () => false;
 
-export default function LegalModal({ open, onClose, docs, initialLocale }: Props) {
+export default function LegalModal(props: Props) {
+  const mounted = useSyncExternalStore(subscribeToClient, clientSnapshot, serverSnapshot);
+  if (!mounted || !props.open) return null;
+  return <LegalModalContent key={props.initialLocale} {...props} />;
+}
+
+function LegalModalContent({ onClose, docs, initialLocale }: Omit<Props, 'open'>) {
   const [locale, setLocale] = useState<LegalLocale>(initialLocale);
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => setMounted(true), []);
-
   useEffect(() => {
-    if (open) setLocale(initialLocale);
-  }, [open, initialLocale]);
-
-  useEffect(() => {
-    if (!open) return;
+    const overflow = document.body.style.overflow;
     const onKey = (e: KeyboardEvent) => e.key === 'Escape' && onClose();
     document.addEventListener('keydown', onKey);
     document.body.style.overflow = 'hidden';
     return () => {
       document.removeEventListener('keydown', onKey);
-      document.body.style.overflow = '';
+      document.body.style.overflow = overflow;
     };
-  }, [open, onClose]);
+  }, [onClose]);
 
   const doc = docs[locale];
   const blocks = useMemo(() => parseMarkdown(doc.markdown), [doc.markdown]);
-
-  if (!mounted || !open) return null;
 
   return createPortal(
     <div
@@ -58,14 +58,14 @@ export default function LegalModal({ open, onClose, docs, initialLocale }: Props
         className="relative w-full sm:max-w-3xl bg-white text-ink flex flex-col max-h-screen sm:max-h-[90vh] sm:rounded-sm shadow-xl border border-neutral-200"
       >
         <header className="flex items-center justify-between px-5 sm:px-8 py-4 border-b border-neutral-200">
-          <a href="/" className="flex items-center" aria-label="ARU STAY">
+          <Link href="/" className="flex items-center" aria-label="ARU STAY">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={LOGO_SRC}
               alt="ARU STAY"
               className="h-7 w-auto"
             />
-          </a>
+          </Link>
           <div className="flex items-center gap-3">
             <LangSelect value={locale} onChange={setLocale} />
             <button

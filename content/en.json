@@ -22,12 +22,21 @@
   },
   "about": {
     "eyebrow": "About",
-    "title": "Run by travelers, for travelers.",
-    "body": "ARU STAY is a small, internationally friendly stay in the heart of Seoul. We keep things simple and kind — clean rooms, quiet mornings, and an easy, self-guided rhythm. We truly enjoy what we do, and we care deeply about every guest who walks through our doors. More than anything, we hope ARU STAY feels like a place you can feel at ease, just like home.",
+    "title": "Hosted by travelers",
+    "body": "We love traveling too. A clean room and an easy arrival matter to us, so we keep those things at the heart of ARU STAY. We hope you feel at home while you discover Seoul.",
     "points": [
-      { "title": "A stay made with care", "body": "We pay attention to the little things that make your stay comfortable." },
-      { "title": "Thoughtfully made, simply run", "body": "We all love traveling, and we understand the joy it brings. We try to share that same feeling with every guest who stays with us." },
-      { "title": "A place to feel at ease", "body": "We hope you feel relaxed, comfortable, and truly welcomed here." }
+      {
+        "title": "A stay made with care",
+        "body": "We pay attention to the little things that make your stay comfortable."
+      },
+      {
+        "title": "Hosts who understand travel",
+        "body": "We all love traveling, and we understand the joy it brings. We try to share that same feeling with every guest who stays with us."
+      },
+      {
+        "title": "A place to feel at ease",
+        "body": "We hope you feel relaxed, comfortable, and truly welcomed here."
+      }
     ]
   },
   "rooms": {
@@ -58,7 +67,13 @@
         "size": "14 m²",
         "beds": "1 Double Bed (1,300 × 2,000 mm)",
         "desc": "A compact, comfortable room with a soft double bed and warm lighting.",
-        "amenities": ["Free Wi-Fi", "Flat-screen TV", "Air Conditioning", "Private Bathroom", "Hair Dryer"],
+        "amenities": [
+          "Free Wi-Fi",
+          "Flat-screen TV",
+          "Air Conditioning",
+          "Private Bathroom",
+          "Hair Dryer"
+        ],
         "priceFrom": "₩80,000",
         "rates": {
           "weekday": "₩80,000",
@@ -82,7 +97,13 @@
         "size": "15 m²",
         "beds": "2 Single Beds (900 × 2,000 mm each)",
         "desc": "Two single beds for friends or family traveling together.",
-        "amenities": ["Free Wi-Fi", "Flat-screen TV", "Air Conditioning", "Private Bathroom", "Hair Dryer"],
+        "amenities": [
+          "Free Wi-Fi",
+          "Flat-screen TV",
+          "Air Conditioning",
+          "Private Bathroom",
+          "Hair Dryer"
+        ],
         "priceFrom": "₩90,000",
         "rates": {
           "weekday": "₩90,000",
@@ -128,12 +149,30 @@
     "eyebrow": "Facilities",
     "title": "The essentials, done well.",
     "items": [
-      { "name": "Lounge", "desc": "A shared space to relax or work." },
-      { "name": "Washing & Drying Machine", "desc": "Wash and dry in one easy cycle." },
-      { "name": "Water Dispenser", "desc": "Cold and hot water, anytime." },
-      { "name": "Microwave", "desc": "For quick meals and late snacks." },
-      { "name": "Free Luggage Storage", "desc": "Available before check-in and after check-out." },
-      { "name": "Comfort Essentials", "desc": "Extra towels and toilet paper are available on each floor." }
+      {
+        "name": "Lounge",
+        "desc": "A shared space to relax or work."
+      },
+      {
+        "name": "Washing & Drying Machine",
+        "desc": "Wash and dry in one easy cycle."
+      },
+      {
+        "name": "Water Dispenser",
+        "desc": "Cold and hot water, anytime."
+      },
+      {
+        "name": "Microwave",
+        "desc": "For quick meals and late snacks."
+      },
+      {
+        "name": "Free Luggage Storage",
+        "desc": "Available before check-in and after check-out."
+      },
+      {
+        "name": "Comfort Essentials",
+        "desc": "Extra towels and toilet paper are available on each floor."
+      }
     ]
   },
   "location": {
@@ -141,11 +180,26 @@
     "title": "Near Wangsimni — a quiet hub, close to everywhere.",
     "body": "ARU STAY sits a short walk from Wangsimni Station, a major transit point connecting you across Seoul in minutes.",
     "access": [
-      { "place": "Seongsu", "time": "5 min" },
-      { "place": "Dongdaemun", "time": "10 min" },
-      { "place": "Jongno / Gwanghwamun", "time": "15 min" },
-      { "place": "Myeongdong", "time": "15 min" },
-      { "place": "Hongdae", "time": "25 min" }
+      {
+        "place": "Seongsu",
+        "time": "5 min"
+      },
+      {
+        "place": "Dongdaemun",
+        "time": "10 min"
+      },
+      {
+        "place": "Jongno / Gwanghwamun",
+        "time": "15 min"
+      },
+      {
+        "place": "Myeongdong",
+        "time": "15 min"
+      },
+      {
+        "place": "Hongdae",
+        "time": "25 min"
+      }
     ],
     "nearby": "Around the stay you'll find convenience stores, Olive Young, Daiso, and local supermarkets — everything for daily life.",
     "mapLinks": {
@@ -187,9 +241,18 @@
     "eyebrow": "Guest Notes",
     "title": "A few words from past guests.",
     "items": [
-      { "quote": "Quiet, clean, and so easy to check in late. Felt like a calm home in Seoul.", "author": "Guest from Japan" },
-      { "quote": "Great location for exploring the city. The host was thoughtful and kind.", "author": "Guest from Taiwan" },
-      { "quote": "We stayed for three weeks and never wanted to leave. Highly recommend.", "author": "Guest from France" }
+      {
+        "quote": "Quiet, clean, and so easy to check in late. Felt like a calm home in Seoul.",
+        "author": "Guest from Japan"
+      },
+      {
+        "quote": "Great location for exploring the city. The host was thoughtful and kind.",
+        "author": "Guest from Taiwan"
+      },
+      {
+        "quote": "We stayed for three weeks and never wanted to leave. Highly recommend.",
+        "author": "Guest from France"
+      }
     ]
   },
   "booking": {
@@ -216,11 +279,26 @@
     "terms": "Terms of Service",
     "business": {
       "heading": "Business Information",
-      "name": { "label": "Business Name", "value": "ARU STAY" },
-      "registration": { "label": "Business Registration Number", "value": "848-12-03120" },
-      "representative": { "label": "Representative", "value": "Seongmin Jang" },
-      "address": { "label": "Business Address", "value": "18, Wangsimni-ro 22-gil, Seongdong-gu, Seoul, South Korea" },
-      "phone": { "label": "Phone Number", "value": "+82-2-2297-4563" }
+      "name": {
+        "label": "Business Name",
+        "value": "ARU STAY"
+      },
+      "registration": {
+        "label": "Business Registration Number",
+        "value": "848-12-03120"
+      },
+      "representative": {
+        "label": "Representative",
+        "value": "Seongmin Jang"
+      },
+      "address": {
+        "label": "Business Address",
+        "value": "18, Wangsimni-ro 22-gil, Seongdong-gu, Seoul, South Korea"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "value": "+82-2-2297-4563"
+      }
     }
   }
 }

@@ -28,7 +28,7 @@ export const GOOGLE_MAPS_EMBED_SRC =
   'https://www.google.com/maps?q=ARU+STAY,+Wangsimni,+Seoul&ll=37.5635136,127.0351235&z=17&output=embed';
 
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? 'https://arustay.com';
+  (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://arustay.com').replace(/\/+$/, '');
 
 export const CREW = {
   name: 'WIGTN',
