@@ -20,6 +20,7 @@ import {
 import { getCopy, type Copy } from "@/lib/renewal-copy";
 import { BookingButton } from "./BookingProvider";
 import StayImage from "./StayImage";
+import LocationGallery from "./LocationGallery";
 
 export function SectionHeading({
   label,
@@ -92,7 +93,14 @@ export function Locations({ locale }: { locale: string }) {
       <div className="mt-12 grid gap-12 md:gap-10 md:grid-cols-2">
         {activeStays.map((stay, index) => (
           <article key={stay.id} className="stay-card">
-            <Link
+            {stay.images?.length ? (
+              <LocationGallery
+                images={stay.images}
+                name={`ARU STAY ${value(stay.name, locale)}`}
+                locale={locale}
+                href={stayPath(stay)}
+              />
+            ) : <Link
               href={stayPath(stay)}
               aria-label={`ARU STAY ${value(stay.name, locale)}`}
               className="stay-photo block overflow-hidden"
@@ -104,7 +112,7 @@ export function Locations({ locale }: { locale: string }) {
                 className="aspect-[3/2]"
                 reveal
               />
-            </Link>
+            </Link>}
             <div className="pt-6 flex flex-1 flex-col">
               <div className="flex items-baseline justify-between gap-4">
                 <h3 className="text-2xl sm:text-3xl font-bold">
@@ -175,7 +183,7 @@ export function RoomGrid({ stay, locale, reveal = false }: {
             />
           </Link>
           <div className="pt-5 flex flex-1 flex-col">
-            <p className="eyebrow">ARU STAY {value(stay.name, locale)}</p>
+            <p className="eyebrow">ARU STAY {stay.id === "dongdaemun" ? "DONGDAEMUN" : value(stay.name, locale)}</p>
             <h3 className="mt-3 text-xl font-bold">
               {value(room.name, locale)}
             </h3>

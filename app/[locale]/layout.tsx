@@ -9,7 +9,6 @@ import { SITE_URL, EMAIL, INSTAGRAM_URL } from "@/lib/constants";
 import { BookingProvider } from "@/components/renewal/BookingProvider";
 import SiteHeader from "@/components/renewal/SiteHeader";
 import Footer from "@/components/renewal/Footer";
-import MobileBooking from "@/components/renewal/MobileBooking";
 
 const displayLatin = localFont({
   src: [
@@ -107,7 +106,6 @@ export default async function LocaleLayout({
               {children}
             </main>
             <Footer locale={locale} />
-            <MobileBooking />
           </BookingProvider>
         </NextIntlClientProvider>
         <Analytics />

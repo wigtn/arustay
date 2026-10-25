@@ -14,7 +14,7 @@ export default function About() {
           <div className="about-photo relative w-full overflow-hidden bg-sand-200">
             <FadeIn className="image-reveal absolute inset-0">
               <Image
-                src="/images/optimized/about.avif"
+                src="/images/revision-11/about-1.jpg"
                 alt={c.hostsPhoto}
                 fill
                 loading="eager"

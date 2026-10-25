@@ -8,6 +8,7 @@ import { getCopy } from "@/lib/renewal-copy";
 import { lodgingData, pageMetadata, staySearchCopy } from "@/lib/renewal-seo";
 import { BookingButton } from "@/components/renewal/BookingProvider";
 import StayImage from "@/components/renewal/StayImage";
+import LocationGallery from "@/components/renewal/LocationGallery";
 import {
   Benefit,
   RoomGrid,
@@ -63,13 +64,21 @@ export default async function LocationPage({ params }: Props) {
             </ul>
             <BookingButton stayId={stay.id} className="mt-8" />
           </div>
-          <StayImage
+          {stay.images?.length ? (
+            <LocationGallery
+              images={stay.images}
+              name={`ARU STAY ${value(stay.name, locale)}`}
+              locale={locale}
+              className="aspect-[4/3] rounded-xl"
+              priority
+            />
+          ) : <StayImage
             src={stay.image}
             alt={`ARU STAY ${value(stay.name, locale)}`}
             locale={locale}
             className="aspect-[4/3] rounded-xl"
             priority
-          />
+          />}
         </div>
       </section>
       <Benefit locale={locale} />

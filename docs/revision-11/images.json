@@ -1,0 +1,386 @@
+[
+  {
+    "source": "About/about.jpg",
+    "output": "/images/revision-11/about-1.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 3878892,
+    "bytes": 145786
+  },
+  {
+    "source": "OurLocations_Dongdaemun/ourLocations_Dongdaemun (1).jpg",
+    "output": "/images/revision-11/dongdaemun-location-1.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 3786450,
+    "bytes": 225863
+  },
+  {
+    "source": "OurLocations_Dongdaemun/ourLocations_Dongdaemun (2).jpg",
+    "output": "/images/revision-11/dongdaemun-location-2.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 11241300,
+    "bytes": 100468
+  },
+  {
+    "source": "OurLocations_Dongdaemun/ourLocations_Dongdaemun (3).jpg",
+    "output": "/images/revision-11/dongdaemun-location-3.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 8703704,
+    "bytes": 133784
+  },
+  {
+    "source": "OurLocations_Dongdaemun/ourLocations_Dongdaemun (4).jpg",
+    "output": "/images/revision-11/dongdaemun-location-4.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 8111716,
+    "bytes": 37016
+  },
+  {
+    "source": "Room_Dongdaemun/01_SingleRoom/singeRoom (1).jpg",
+    "output": "/images/revision-11/dongdaemun-single-1.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 8761721,
+    "bytes": 75045
+  },
+  {
+    "source": "Room_Dongdaemun/01_SingleRoom/singeRoom (2).jpg",
+    "output": "/images/revision-11/dongdaemun-single-2.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 9246016,
+    "bytes": 60269
+  },
+  {
+    "source": "Room_Dongdaemun/01_SingleRoom/singeRoom (3).jpg",
+    "output": "/images/revision-11/dongdaemun-single-3.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 9572656,
+    "bytes": 73769
+  },
+  {
+    "source": "Room_Dongdaemun/01_SingleRoom/singeRoom (4).jpg",
+    "output": "/images/revision-11/dongdaemun-single-4.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 10390017,
+    "bytes": 67914
+  },
+  {
+    "source": "Room_Dongdaemun/01_SingleRoom/singeRoom (5).jpg",
+    "output": "/images/revision-11/dongdaemun-single-5.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 9022285,
+    "bytes": 60594
+  },
+  {
+    "source": "Room_Dongdaemun/01_SingleRoom/singeRoom (6).jpg",
+    "output": "/images/revision-11/dongdaemun-single-6.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 9307676,
+    "bytes": 47340
+  },
+  {
+    "source": "Room_Dongdaemun/02_DoubleRoom/doubleRoom (1).jpg",
+    "output": "/images/revision-11/dongdaemun-double-1.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 11742301,
+    "bytes": 76498
+  },
+  {
+    "source": "Room_Dongdaemun/02_DoubleRoom/doubleRoom (2).jpg",
+    "output": "/images/revision-11/dongdaemun-double-2.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 10976367,
+    "bytes": 98106
+  },
+  {
+    "source": "Room_Dongdaemun/02_DoubleRoom/doubleRoom (3).jpg",
+    "output": "/images/revision-11/dongdaemun-double-3.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 9637999,
+    "bytes": 79527
+  },
+  {
+    "source": "Room_Dongdaemun/02_DoubleRoom/doubleRoom (4).jpg",
+    "output": "/images/revision-11/dongdaemun-double-4.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 11045603,
+    "bytes": 77154
+  },
+  {
+    "source": "Room_Dongdaemun/02_DoubleRoom/doubleRoom (5).jpg",
+    "output": "/images/revision-11/dongdaemun-double-5.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 10331643,
+    "bytes": 84304
+  },
+  {
+    "source": "Room_Dongdaemun/02_DoubleRoom/doubleRoom (6).jpg",
+    "output": "/images/revision-11/dongdaemun-double-6.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 9569171,
+    "bytes": 80919
+  },
+  {
+    "source": "Room_Dongdaemun/02_DoubleRoom/doubleRoom (7).jpg",
+    "output": "/images/revision-11/dongdaemun-double-7.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 10970173,
+    "bytes": 78497
+  },
+  {
+    "source": "Room_Dongdaemun/02_DoubleRoom/doubleRoom (8).jpg",
+    "output": "/images/revision-11/dongdaemun-double-8.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 9299093,
+    "bytes": 80587
+  },
+  {
+    "source": "Room_Dongdaemun/02_DoubleRoom/doubleRoom (9).jpg",
+    "output": "/images/revision-11/dongdaemun-double-9.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 9834662,
+    "bytes": 78812
+  },
+  {
+    "source": "Room_Dongdaemun/02_DoubleRoom/doubleRoom (10).jpg",
+    "output": "/images/revision-11/dongdaemun-double-10.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 11065311,
+    "bytes": 70411
+  },
+  {
+    "source": "Room_Dongdaemun/02_DoubleRoom/doubleRoom (11).jpg",
+    "output": "/images/revision-11/dongdaemun-double-11.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 10312743,
+    "bytes": 65928
+  },
+  {
+    "source": "Room_Dongdaemun/02_DoubleRoom/doubleRoom (12).jpg",
+    "output": "/images/revision-11/dongdaemun-double-12.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 7937457,
+    "bytes": 55832
+  },
+  {
+    "source": "Room_Dongdaemun/02_DoubleRoom/doubleRoom (13).jpg",
+    "output": "/images/revision-11/dongdaemun-double-13.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 8536883,
+    "bytes": 108284
+  },
+  {
+    "source": "Room_Dongdaemun/02_DoubleRoom/doubleRoom (14).jpg",
+    "output": "/images/revision-11/dongdaemun-double-14.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 8666489,
+    "bytes": 46344
+  },
+  {
+    "source": "Room_Dongdaemun/02_DoubleRoom/doubleRoom (15).jpg",
+    "output": "/images/revision-11/dongdaemun-double-15.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 8947557,
+    "bytes": 91040
+  },
+  {
+    "source": "Room_Dongdaemun/03_TwinRoom/twinRoom (1).jpg",
+    "output": "/images/revision-11/dongdaemun-twin-1.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 9413096,
+    "bytes": 88551
+  },
+  {
+    "source": "Room_Dongdaemun/03_TwinRoom/twinRoom (2).jpg",
+    "output": "/images/revision-11/dongdaemun-twin-2.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 8795982,
+    "bytes": 98274
+  },
+  {
+    "source": "Room_Dongdaemun/03_TwinRoom/twinRoom (3).jpg",
+    "output": "/images/revision-11/dongdaemun-twin-3.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 7601566,
+    "bytes": 59314
+  },
+  {
+    "source": "Room_Dongdaemun/03_TwinRoom/twinRoom (4).jpg",
+    "output": "/images/revision-11/dongdaemun-twin-4.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 7986024,
+    "bytes": 84626
+  },
+  {
+    "source": "Room_Dongdaemun/03_TwinRoom/twinRoom (5).jpg",
+    "output": "/images/revision-11/dongdaemun-twin-5.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 8715779,
+    "bytes": 64278
+  },
+  {
+    "source": "Room_Dongdaemun/03_TwinRoom/twinRoom (6).jpg",
+    "output": "/images/revision-11/dongdaemun-twin-6.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 9718930,
+    "bytes": 101687
+  },
+  {
+    "source": "Room_Dongdaemun/03_TwinRoom/twinRoom (7).jpg",
+    "output": "/images/revision-11/dongdaemun-twin-7.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 8700584,
+    "bytes": 63650
+  },
+  {
+    "source": "Room_Dongdaemun/03_TwinRoom/twinRoom (8).jpg",
+    "output": "/images/revision-11/dongdaemun-twin-8.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 8399996,
+    "bytes": 46918
+  },
+  {
+    "source": "Room_Dongdaemun/04_TripleRoom/tripleRoom (1).jpg",
+    "output": "/images/revision-11/dongdaemun-triple-1.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 8885655,
+    "bytes": 98833
+  },
+  {
+    "source": "Room_Dongdaemun/04_TripleRoom/tripleRoom (2).jpg",
+    "output": "/images/revision-11/dongdaemun-triple-2.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 8208072,
+    "bytes": 92419
+  },
+  {
+    "source": "Room_Dongdaemun/04_TripleRoom/tripleRoom (3).jpg",
+    "output": "/images/revision-11/dongdaemun-triple-3.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 7551818,
+    "bytes": 64573
+  },
+  {
+    "source": "Room_Dongdaemun/04_TripleRoom/tripleRoom (4).jpg",
+    "output": "/images/revision-11/dongdaemun-triple-4.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 8998977,
+    "bytes": 100904
+  },
+  {
+    "source": "Room_Dongdaemun/04_TripleRoom/tripleRoom (5).jpg",
+    "output": "/images/revision-11/dongdaemun-triple-5.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 8374014,
+    "bytes": 75499
+  },
+  {
+    "source": "Room_Dongdaemun/04_TripleRoom/tripleRoom (6).jpg",
+    "output": "/images/revision-11/dongdaemun-triple-6.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 7629117,
+    "bytes": 48305
+  },
+  {
+    "source": "Room_Dongdaemun/04_TripleRoom/tripleRoom (7).jpg",
+    "output": "/images/revision-11/dongdaemun-triple-7.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 8404596,
+    "bytes": 99070
+  },
+  {
+    "source": "Room_Dongdaemun/05_DeluxeFamilyRoom/deluxFamilyRoom  (1).jpg",
+    "output": "/images/revision-11/dongdaemun-deluxe-family-1.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 8895514,
+    "bytes": 98598
+  },
+  {
+    "source": "Room_Dongdaemun/05_DeluxeFamilyRoom/deluxFamilyRoom  (2).jpg",
+    "output": "/images/revision-11/dongdaemun-deluxe-family-2.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 8168562,
+    "bytes": 74683
+  },
+  {
+    "source": "Room_Dongdaemun/05_DeluxeFamilyRoom/deluxFamilyRoom  (3).jpg",
+    "output": "/images/revision-11/dongdaemun-deluxe-family-3.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 9048348,
+    "bytes": 99001
+  },
+  {
+    "source": "Room_Dongdaemun/05_DeluxeFamilyRoom/deluxFamilyRoom  (4).jpg",
+    "output": "/images/revision-11/dongdaemun-deluxe-family-4.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 7783514,
+    "bytes": 62860
+  },
+  {
+    "source": "Room_Dongdaemun/05_DeluxeFamilyRoom/deluxFamilyRoom  (5).jpg",
+    "output": "/images/revision-11/dongdaemun-deluxe-family-5.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 8744723,
+    "bytes": 82185
+  },
+  {
+    "source": "Room_Dongdaemun/05_DeluxeFamilyRoom/deluxFamilyRoom  (6).jpg",
+    "output": "/images/revision-11/dongdaemun-deluxe-family-6.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 8841491,
+    "bytes": 92169
+  },
+  {
+    "source": "Room_Dongdaemun/05_DeluxeFamilyRoom/deluxFamilyRoom  (7).jpg",
+    "output": "/images/revision-11/dongdaemun-deluxe-family-7.jpg",
+    "width": 1600,
+    "height": 900,
+    "originalBytes": 8113824,
+    "bytes": 101974
+  }
+]

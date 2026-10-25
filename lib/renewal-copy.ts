@@ -14,10 +14,10 @@ const labels = {
   locations: text("Locations", "지점 소개", "ロケーション", "分店介绍"),
   about: text("About", "아루 이야기", "私たちについて", "关于我们"),
   hostsPhoto: text(
-    "The two ARU STAY hosts at the entrance",
-    "아루스테이 입구에 서 있는 두 운영자",
-    "ARU STAYの入口に立つ2人のホスト",
-    "站在ARU STAY入口的两位房东",
+    "Two ARU STAY hosts looking out over the neighborhood",
+    "동네 풍경을 바라보는 아루스테이의 두 운영자",
+    "街並みを眺めるARU STAYの2人のホスト",
+    "眺望街区景色的两位ARU STAY房东",
   ),
   hostsCaption: text(
     "Your hosts at ARU STAY",
@@ -387,6 +387,9 @@ const labels = {
   ),
   aircon: text("Air conditioning", "에어컨", "エアコン", "空调"),
   tv: text("Flat-screen TV", "평면 TV", "薄型テレビ", "平板电视"),
+  television: text("TV", "TV", "テレビ", "电视"),
+  towels: text("Towels", "수건", "タオル", "毛巾"),
+  drinkingWater: text("Water", "물", "飲料水", "饮用水"),
   hairdryer: text("Hair dryer", "헤어드라이어", "ドライヤー", "吹风机"),
   arrival: text(
     "Arriving & staying",

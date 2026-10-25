@@ -16,6 +16,7 @@ import { pageMetadata, roomSearchTitle } from "@/lib/renewal-seo";
 import { BookingButton } from "@/components/renewal/BookingProvider";
 import { FinalBooking } from "@/components/renewal/Sections";
 import RoomGallery from "@/components/renewal/RoomGallery";
+import MobileBooking from "@/components/renewal/MobileBooking";
 
 type Props = {
   params: Promise<{ locale: string; location: string; room: string }>;
@@ -64,7 +65,7 @@ export default async function RoomPage({ params }: Props) {
             className="eyebrow underline underline-offset-4"
             href={stayPath(stay)}
           >
-            ARU STAY {value(stay.name, locale)}
+            ARU STAY {stay.id === "dongdaemun" ? "DONGDAEMUN" : value(stay.name, locale)}
           </Link>
           <h1 className="page-title mt-4">{value(room.name, locale)}</h1>
         </div>
@@ -87,9 +88,9 @@ export default async function RoomPage({ params }: Props) {
             {room.bathtub ? (
               <p className="mt-6 tag w-fit">{c.bathtub}</p>
             ) : null}
-            <div className="mt-8 info-panel">
+            <div id="room-booking" className="mt-8 info-panel">
               <p className="eyebrow">{c.benefitLabel}</p>
-              <p className="font-bold mt-3">{c.benefitBody}</p>
+              <p className="font-bold mt-3">{c.benefitBody}{stay.id === "dongdaemun" && locale === "en" ? "." : ""}</p>
               <BookingButton stayId={stay.id} className="mt-5 w-full" />
             </div>
           </div>
@@ -101,7 +102,7 @@ export default async function RoomPage({ params }: Props) {
               <p className="mt-5 text-ink-soft">{c.contentPending}</p>
             ) : (
               <ul className="mt-5 grid grid-cols-2 gap-4 text-sm">
-                {[c.wifi, c.aircon, c.tv, c.privateBath, c.hairdryer].map(
+                {(room.amenities ? room.amenities.map((key) => c[key]) : [c.wifi, c.aircon, c.tv, c.privateBath, c.hairdryer]).map(
                   (item) => (
                     <li className="flex items-center gap-2" key={item}>
                       <Check size={16} />
@@ -133,6 +134,7 @@ export default async function RoomPage({ params }: Props) {
         </div>
       </section>
       <FinalBooking locale={locale} stay={stay} />
+      <MobileBooking key={`${stay.id}/${room.slug}/${locale}`} stayId={stay.id} roomName={value(room.name, locale)} />
     </>
   );
 }

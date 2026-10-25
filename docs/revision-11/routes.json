@@ -1,0 +1,102 @@
+[
+  {
+    "path": "/locations/dongdaemun/rooms/single",
+    "status": 200,
+    "checks": "lang, H1, cover, back link, branch label, canonical, five hreflang, noindex; EN amenities/bed/benefit"
+  },
+  {
+    "path": "/locations/dongdaemun/rooms/double",
+    "status": 200,
+    "checks": "lang, H1, cover, back link, branch label, canonical, five hreflang, noindex; EN amenities/bed/benefit"
+  },
+  {
+    "path": "/locations/dongdaemun/rooms/twin",
+    "status": 200,
+    "checks": "lang, H1, cover, back link, branch label, canonical, five hreflang, noindex; EN amenities/bed/benefit"
+  },
+  {
+    "path": "/locations/dongdaemun/rooms/triple",
+    "status": 200,
+    "checks": "lang, H1, cover, back link, branch label, canonical, five hreflang, noindex; EN amenities/bed/benefit"
+  },
+  {
+    "path": "/locations/dongdaemun/rooms/deluxe-family",
+    "status": 200,
+    "checks": "lang, H1, cover, back link, branch label, canonical, five hreflang, noindex; EN amenities/bed/benefit"
+  },
+  {
+    "path": "/ko/locations/dongdaemun/rooms/single",
+    "status": 200,
+    "checks": "lang, H1, cover, back link, branch label, canonical, five hreflang, noindex; EN amenities/bed/benefit"
+  },
+  {
+    "path": "/ko/locations/dongdaemun/rooms/double",
+    "status": 200,
+    "checks": "lang, H1, cover, back link, branch label, canonical, five hreflang, noindex; EN amenities/bed/benefit"
+  },
+  {
+    "path": "/ko/locations/dongdaemun/rooms/twin",
+    "status": 200,
+    "checks": "lang, H1, cover, back link, branch label, canonical, five hreflang, noindex; EN amenities/bed/benefit"
+  },
+  {
+    "path": "/ko/locations/dongdaemun/rooms/triple",
+    "status": 200,
+    "checks": "lang, H1, cover, back link, branch label, canonical, five hreflang, noindex; EN amenities/bed/benefit"
+  },
+  {
+    "path": "/ko/locations/dongdaemun/rooms/deluxe-family",
+    "status": 200,
+    "checks": "lang, H1, cover, back link, branch label, canonical, five hreflang, noindex; EN amenities/bed/benefit"
+  },
+  {
+    "path": "/ja/locations/dongdaemun/rooms/single",
+    "status": 200,
+    "checks": "lang, H1, cover, back link, branch label, canonical, five hreflang, noindex; EN amenities/bed/benefit"
+  },
+  {
+    "path": "/ja/locations/dongdaemun/rooms/double",
+    "status": 200,
+    "checks": "lang, H1, cover, back link, branch label, canonical, five hreflang, noindex; EN amenities/bed/benefit"
+  },
+  {
+    "path": "/ja/locations/dongdaemun/rooms/twin",
+    "status": 200,
+    "checks": "lang, H1, cover, back link, branch label, canonical, five hreflang, noindex; EN amenities/bed/benefit"
+  },
+  {
+    "path": "/ja/locations/dongdaemun/rooms/triple",
+    "status": 200,
+    "checks": "lang, H1, cover, back link, branch label, canonical, five hreflang, noindex; EN amenities/bed/benefit"
+  },
+  {
+    "path": "/ja/locations/dongdaemun/rooms/deluxe-family",
+    "status": 200,
+    "checks": "lang, H1, cover, back link, branch label, canonical, five hreflang, noindex; EN amenities/bed/benefit"
+  },
+  {
+    "path": "/zh/locations/dongdaemun/rooms/single",
+    "status": 200,
+    "checks": "lang, H1, cover, back link, branch label, canonical, five hreflang, noindex; EN amenities/bed/benefit"
+  },
+  {
+    "path": "/zh/locations/dongdaemun/rooms/double",
+    "status": 200,
+    "checks": "lang, H1, cover, back link, branch label, canonical, five hreflang, noindex; EN amenities/bed/benefit"
+  },
+  {
+    "path": "/zh/locations/dongdaemun/rooms/twin",
+    "status": 200,
+    "checks": "lang, H1, cover, back link, branch label, canonical, five hreflang, noindex; EN amenities/bed/benefit"
+  },
+  {
+    "path": "/zh/locations/dongdaemun/rooms/triple",
+    "status": 200,
+    "checks": "lang, H1, cover, back link, branch label, canonical, five hreflang, noindex; EN amenities/bed/benefit"
+  },
+  {
+    "path": "/zh/locations/dongdaemun/rooms/deluxe-family",
+    "status": 200,
+    "checks": "lang, H1, cover, back link, branch label, canonical, five hreflang, noindex; EN amenities/bed/benefit"
+  }
+]
